@@ -12,23 +12,12 @@ import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 import document from '../GetInsights/documentData';
 
 const GetInsightsPage = () => {
-    const [isLoadingDocumentData, setIsLoadingDocumentData] = useState<boolean>(true);
     const [documentData, setDocumentData] = useState<IDocument>();
     const [sidebarSize, setSidebarSize] = useState<number>();
     const [fileUrl] = useState<string>('');
 
-    async function getDocument() {
-        try {
-            const response = document;
-            setDocumentData(response);
-            setIsLoadingDocumentData(false);
-        } catch (e) {
-            console.error('getDocument e', e);
-        }
-    }
-
     useEffect(() => {
-        getDocument();
+        setDocumentData(document);
     }, []);
 
     window.addEventListener('keydown', function (event) {
@@ -41,48 +30,44 @@ const GetInsightsPage = () => {
     });
 
     return (
-        <>
-            <GetInsightsProvider
-                documentData={documentData}
-                isLoadingDocumentData={isLoadingDocumentData}
-                fileUrl={fileUrl}>
-                <GetInsightsLayoutStyled>
-                    <GetInsightsHeader />
-                    <Container topInnerSpacing={4}>
-                        <Flex justifyBetween full>
-                            <PanelGroup autoSaveId="sidebar" direction="horizontal">
-                                <Panel
-                                    defaultSize={20}
-                                    minSize={20}
-                                    order={1}
-                                    onResize={(size) => {
-                                        setSidebarSize(size);
-                                        console.log(sidebarSize);
-                                        
-                                    }}>
-                                    <InsightsSidebar
-                                    />
-                                </Panel>
-                                <PanelResizeHandle style={{ width: '5px' }} />
-                                <Panel order={2}>
-                                    <Container
-                                        topInnerSpacing={1.0625}
-                                        bottomInnerSpacing={1.0625}
-                                        leftInnerSpacing={1.6875}
-                                        rightInnerSpacing={1.6875}
-                                        height="calc(100vh - 98px)"
-                                        width="calc(100vh - ${sidebarSize})">
-                                        <PDFViewer />
-                                        <PDFViewerPageIndicator />
-                                    </Container>
-                                </Panel>
-                            </PanelGroup>
-                            ;
-                        </Flex>
-                    </Container>
-                </GetInsightsLayoutStyled>
-            </GetInsightsProvider>
-        </>
+        <GetInsightsProvider
+            documentData={documentData}
+            fileUrl={fileUrl}>
+            <GetInsightsLayoutStyled>
+                <GetInsightsHeader />
+                <Container topInnerSpacing={4}>
+                    <Flex justifyBetween full>
+                        <PanelGroup autoSaveId="sidebar" direction="horizontal">
+                            <Panel
+                                defaultSize={20}
+                                minSize={20}
+                                order={1}
+                                onResize={(size) => {
+                                    setSidebarSize(size);
+                                    console.log(sidebarSize);
+                                    
+                                }}>
+                                <InsightsSidebar
+                                />
+                            </Panel>
+                            <PanelResizeHandle style={{ width: '5px' }} />
+                            <Panel order={2}>
+                                <Container
+                                    topInnerSpacing={1.0625}
+                                    bottomInnerSpacing={1.0625}
+                                    leftInnerSpacing={1.6875}
+                                    rightInnerSpacing={1.6875}
+                                    height="calc(100vh - 98px)"
+                                    width="calc(100vh - ${sidebarSize})">
+                                    <PDFViewer />
+                                    <PDFViewerPageIndicator />
+                                </Container>
+                            </Panel>
+                        </PanelGroup>
+                    </Flex>
+                </Container>
+            </GetInsightsLayoutStyled>
+        </GetInsightsProvider>
     );
 };
 

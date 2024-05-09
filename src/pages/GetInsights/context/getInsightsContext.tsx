@@ -20,7 +20,6 @@ export interface IChat {
 
 export type GetInsightsContextType = {
     documentData: IDocument;
-    isLoadingDocumentData: boolean;
     isDocumentLoaded: boolean;
     selectedInsight: string | ISelectedEntity | undefined;
     selectedInsightType: InsightType;
@@ -56,13 +55,11 @@ interface GetInsightsProviderProps {
     children: React.ReactNode;
     documentData?: IDocument;
     fileUrl: string;
-    isLoadingDocumentData: boolean;
 }
 
 const GetInsightsProvider = ({
     children,
     documentData,
-    isLoadingDocumentData,
     fileUrl,
 }: GetInsightsProviderProps) => {
     const [selectedInsight, setSelectedInsight] = useState<string | ISelectedEntity | undefined>();
@@ -79,7 +76,7 @@ const GetInsightsProvider = ({
     const [matchCase, setMatchCase] = useState(false);
     const [matchWord, setMatchWord] = useState(false);
 
-    if (isLoadingDocumentData || !documentData) {
+    if (!documentData) {
         return <PageLoadingPlaceholder />;
     }
 
@@ -98,7 +95,6 @@ const GetInsightsProvider = ({
                 chats,
                 currentPage,
                 numPages,
-                isLoadingDocumentData,
                 currentMatchIndex,
                 matchCase,
                 matchWord,
