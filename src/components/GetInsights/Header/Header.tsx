@@ -8,7 +8,6 @@ import {
     GetInsightsContextType,
 } from '../../../pages/GetInsights/context/getInsightsContext';
 import ClauseNavigationBar from '../ClauseNavigationBar';
-import KeyDataNavigationBar from '../KeyDataNavigationBar';
 
 const GetInsightsHeader = () => {
     const { documentData } = useContext(GetInsightsContext) as GetInsightsContextType;
@@ -37,7 +36,6 @@ const GetInsightsHeader = () => {
                     </Flex>
                     <Container leftOuterSpacing={0.5}>
                         <ClauseNavigationBar />
-                        <KeyDataNavigationBar />
                     </Container>
                 </Flex>
             </Container>
