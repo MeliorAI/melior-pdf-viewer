@@ -4,39 +4,24 @@ import Flex from 'styled-flex-component';
 import InsightsSidebar from '../../components/GetInsights/Sidebar';
 import Container from '../../components/UI/Common/Container';
 import { useEffect, useState } from 'react';
-import { IDocument, StorageDetails } from '../../@types/Document';
+import { IDocument } from '../../@types/Document';
 import GetInsightsProvider from './context/getInsightsContext';
 import PDFViewerPageIndicator from '../../components/GetInsights/PDFViewerPageIndicator';
 import GetInsightsLayoutStyled from '../../components/GetInsights/Layout/Layout.styled';
 import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 import document from '../GetInsights/documentData';
-import { adminGetShadowDownloadLinkWithBoxDetails } from '../../api/box/admin/file';
-import getStorageDetails from '../../utils/getStorageDetails';
 
 const GetInsightsPage = () => {
     const [isLoadingDocumentData, setIsLoadingDocumentData] = useState<boolean>(true);
     const [documentData, setDocumentData] = useState<IDocument>();
     const [sidebarSize, setSidebarSize] = useState<number>();
-    const [fileUrl, setFileUrl] = useState<string>('');
-
-    async function downloadFile(boxDetails: StorageDetails) {
-        try {
-            // Get the "shadow" version of the file, i.e. the one with OCR, used for rendering.
-            const fileUrl = await adminGetShadowDownloadLinkWithBoxDetails(boxDetails);
-            console.log('file: ', fileUrl);
-
-            setFileUrl(fileUrl);
-        } catch (e) {
-            console.error('downloadFile error', e);
-        }
-    }
+    const [fileUrl] = useState<string>('');
 
     async function getDocument() {
         try {
             const response = document;
             setDocumentData(response);
             setIsLoadingDocumentData(false);
-            downloadFile(getStorageDetails(response));
         } catch (e) {
             console.error('getDocument e', e);
         }

@@ -1,102 +1,61 @@
 import { IDocument } from '../../@types/Document';
 
 const documentData: IDocument = {
-    id: '1384c1b6d3977d154277f29bb3ee0425fb3f9312',
-    name: 'ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT.txt',
-    type: 'Endorsement Agreement',
+    id: 'a8ae6355a29558002bda8262887354a89ad17ca8',
+    name: 'BELLRINGBRANDS,INC_02_07_2020-EX-10.18-MASTER SUPPLY AGREEMENT.PDF',
+    type: 'Supply Agreement',
     storage_details: {
-        user_id: '30137140243',
-        file_id: '1452537383238',
+        user_id: '30137455144',
+        file_id: '1438091464347',
     },
     tags: {
         'Company B': '#cfe9c9',
+        'XYZ Files': '#c9efe8',
+        'all-10': '#e5e6ad',
+        'all-4': '#e6add6',
     },
     clauses: {
-        'Affiliate License-Licensor': [
-            {
-                _predicted: {
-                    answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT. (It is expressly understood by the parties that CONSULTANT may \nplay [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not \nlimited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse \nthose clubs and/or putter.)',
-                    score: 0.5698145031929016,
-                    page: 2,
-                    bboxes: [
-                        [
-                            9.281045626970677, 11.580526949179292, 79.61119421167311,
-                            7.35361118509312,
-                        ],
-                    ],
-                    start: 30,
-                    end: 379,
-                },
-                answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT. (It is expressly understood by the parties that CONSULTANT may \nplay [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not \nlimited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse \nthose clubs and/or putter.)',
-                bboxes: [
-                    [9.281045626970677, 11.580526949179292, 79.61119421167311, 7.35361118509312],
-                ],
-                page: 2,
-            },
-        ],
         'Agreement Date': [
             {
                 _predicted: {
-                    answer: 'January 13, 2005',
-                    score: 0.9627660512924194,
+                    answer: '31 October 2019',
+                    score: 0.9802001118659973,
                     page: 0,
                     bboxes: [
                         [
-                            42.68791846979677, 36.580526949179294, 15.72067161011541,
-                            1.4697758838383805,
+                            49.59316734506303, 17.595672607421875, 9.935097574185917,
+                            1.0793092415055305,
                         ],
                     ],
-                    start: 216,
-                    end: 232,
+                    start: 280,
+                    end: 295,
                 },
-                answer: 'January 13, 2005',
+                answer: '31 October 2019',
                 bboxes: [
-                    [42.68791846979677, 36.580526949179294, 15.72067161011541, 1.4697758838383805],
+                    [49.59316734506303, 17.595672607421875, 9.935097574185917, 1.0793092415055305],
                 ],
                 page: 0,
-                value: '2005-01-13T00:00:00',
-            },
-        ],
-        'Competitive Restriction Exception': [
-            {
-                _predicted: {
-                    answer: "When endorsing a non-competitive product, under no \ncircumstances shall CONSULTANT wear, play, use, hold or in any way be associated \nwith an ADAMS GOLF competitor's Product.",
-                    score: 0.9290712475776672,
-                    page: 2,
-                    bboxes: [
-                        [
-                            9.281045626970677, 32.17395821002999, 78.61446617475522,
-                            4.4116973876953125,
-                        ],
-                    ],
-                    start: 936,
-                    end: 1110,
-                },
-                answer: "When endorsing a non-competitive product, under no \ncircumstances shall CONSULTANT wear, play, use, hold or in any way be associated \nwith an ADAMS GOLF competitor's Product.",
-                bboxes: [
-                    [9.281045626970677, 32.17395821002999, 78.61446617475522, 4.4116973876953125],
-                ],
-                page: 2,
+                value: '2019-10-31T00:00:00',
             },
         ],
         'Document Name': [
             {
                 _predicted: {
-                    answer: 'ENDORSEMENT AGREEMENT',
-                    score: 0.9711277484893799,
+                    answer: 'MASTER SUPPLY AGREEMENT',
+                    score: 0.24423034489154816,
                     page: 0,
                     bboxes: [
                         [
-                            9.281045626970677, 33.63860929855193, 20.622633017745674,
-                            1.4697758838383805,
+                            11.764939252068014, 17.595672607421875, 19.670048561416753,
+                            1.0793092415055305,
                         ],
                     ],
-                    start: 160,
-                    end: 181,
+                    start: 228,
+                    end: 251,
                 },
-                answer: 'ENDORSEMENT AGREEMENT',
+                answer: 'MASTER SUPPLY AGREEMENT',
                 bboxes: [
-                    [9.281045626970677, 33.63860929855193, 20.622633017745674, 1.4697758838383805],
+                    [40.44954476479514, 15.112445913285331, 18.670885841473822, 1.1795406660886247],
                 ],
                 page: 0,
             },
@@ -104,196 +63,152 @@ const documentData: IDocument = {
         'Effective Date': [
             {
                 _predicted: {
-                    answer: 'No amendments, modifications or releases from any provision \nhereof shall be effective unless in writing and signed by both parties.',
-                    score: 0.9674974679946899,
-                    page: 7,
-                    bboxes: [
-                        [
-                            9.281045626970677, 51.290122908775245, 79.59322274899951,
-                            2.9470501524029373,
-                        ],
-                    ],
-                    start: 1318,
-                    end: 1450,
-                },
-                answer: 'No amendments, modifications or releases from any provision \nhereof shall be effective unless in writing and signed by both parties.',
-                bboxes: [
-                    [9.281045626970677, 51.290122908775245, 79.59322274899951, 2.9470501524029373],
-                ],
-                page: 7,
-            },
-        ],
-        'Exclusivity': [
-            {
-                _predicted: {
-                    answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT. (It is expressly understood by the parties that CONSULTANT may \nplay [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not \nlimited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse \nthose clubs and/or putter.)',
-                    score: 0.654965877532959,
-                    page: 2,
-                    bboxes: [
-                        [
-                            9.281045626970677, 11.580526949179292, 79.61119421167311,
-                            7.35361118509312,
-                        ],
-                    ],
-                    start: 30,
-                    end: 379,
-                },
-                answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT. (It is expressly understood by the parties that CONSULTANT may \nplay [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not \nlimited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse \nthose clubs and/or putter.)',
-                bboxes: [
-                    [9.281045626970677, 11.580526949179292, 79.61119421167311, 7.35361118509312],
-                ],
-                page: 2,
-            },
-        ],
-        'Expiration Date': [
-            {
-                _predicted: {
-                    answer: 'The Term of this Agreement shall be for a period of [* ****] years and [*****] \nmonths commencing the 1st day of September 2004 and terminating the [*****] day of\n[*****].',
-                    score: 0.9866112470626831,
+                    answer: '31 October 2019',
+                    score: 0.9783071279525757,
                     page: 0,
                     bboxes: [
                         [
-                            9.281045626970677, 63.057801217743844, 80.58996075898213,
-                            4.411693534465755,
+                            49.59316734506303, 17.595672607421875, 9.935097574185917,
+                            1.0793092415055305,
                         ],
                     ],
-                    start: 821,
-                    end: 992,
+                    start: 280,
+                    end: 295,
                 },
-                answer: 'The Term of this Agreement shall be for a period of [* ****] years and [*****] \nmonths commencing the 1st day of September 2004 and terminating the [*****] day of\n[*****].',
+                answer: '31 October 2019',
                 bboxes: [
-                    [9.281045626970677, 63.057801217743844, 80.58996075898213, 4.411693534465755],
+                    [49.59316734506303, 17.595672607421875, 9.935097574185917, 1.0793092415055305],
                 ],
                 page: 0,
-                value: '2004-09-01T00:00:00',
+                value: '2019-10-31T00:00:00',
             },
         ],
-        'License Grant': [
+        'Minimum Commitment': [
             {
                 _predicted: {
-                    answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT.',
-                    score: 0.6615560054779053,
-                    page: 2,
+                    answer: 'The maximum liability of one Party to the other Party and its affiliates in relation to this Agreement will be [***] (“Liability Cap”),\nprovided however that:',
+                    score: 0.487006813287735,
+                    page: 7,
                     bboxes: [
                         [
-                            9.281045626970677, 11.580526949179292, 74.69126196468576,
-                            2.9344192659012016,
+                            16.050420168067227, 48.78343595744879, 75.53784795168067,
+                            2.4287787865573023,
                         ],
                     ],
-                    start: 30,
-                    end: 126,
+                    start: 3038,
+                    end: 3196,
                 },
-                answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT.',
+                answer: 'The maximum liability of one Party to the other Party and its affiliates in relation to this Agreement will be [***] (“Liability Cap”),\nprovided however that:',
                 bboxes: [
-                    [9.281045626970677, 11.580526949179292, 74.69126196468576, 2.9344192659012016],
+                    [16.050420168067227, 48.78343595744879, 75.53784795168067, 2.4287787865573023],
                 ],
-                page: 2,
-            },
-        ],
-        'Notice Period To Terminate Renewal': [
-            {
-                _predicted: {
-                    answer: "Notwithstanding any other paragraph of this Agreement, in the event that \nCONSULTANT dies or is unable to play tour golf at all, ADAMS GOLF may terminate \nthis Agreement on thirty (30) days' written notice.",
-                    score: 0.7834889888763428,
-                    page: 6,
-                    bboxes: [
-                        [
-                            9.281045626970677, 58.65123247859454, 77.61609258215412,
-                            4.4116973876953125,
-                        ],
-                    ],
-                    start: 1902,
-                    end: 2108,
-                },
-                answer: "Notwithstanding any other paragraph of this Agreement, in the event that \nCONSULTANT dies or is unable to play tour golf at all, ADAMS GOLF may terminate \nthis Agreement on thirty (30) days' written notice.",
-                bboxes: [
-                    [9.281045626970677, 58.65123247859454, 77.61609258215412, 4.4116973876953125],
-                ],
-                page: 6,
+                page: 7,
             },
         ],
         'Parties': [
             {
                 _predicted: {
-                    answer: 'ADAMS GOLF, LTD.',
-                    score: 0.16690053045749664,
-                    page: 9,
-                    bboxes: [
-                        [
-                            25.99346684474571, 52.7673971773398, 15.719041014029315,
-                            1.4697758838383805,
-                        ],
-                    ],
-                    start: 762,
-                    end: 778,
-                },
-                answer: 'ADAMS GOLF, LTD.',
-                bboxes: [
-                    [25.99346684474571, 52.7673971773398, 15.719041014029315, 1.4697758838383805],
-                ],
-                page: 9,
-            },
-            {
-                _predicted: {
-                    answer: 'ADAMS GOLF, LTD. 2801 East Plano Parkway Plano, Texas \n75074\nor at such other address as is given in writing by ADAMS GOLF to CONSULTANT.\n12\n  IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed\nas of the date first set forth above.\n    APPROVED FOR CONSULTANT                       By: /s/ Tom Watson     Date: \nJanuary 13, 2005\nTom Watson\n    APPROVED FOR ADAMS GOLF, LTD.',
-                    score: 0.15526871383190155,
-                    page: 9,
-                    bboxes: [
-                        [
-                            9.281045626970677, 21.870930989583336, 80.57361490586224,
-                            32.36624207159485,
-                        ],
-                    ],
-                    start: 375,
-                    end: 778,
-                },
-                answer: 'ADAMS GOLF, LTD. 2801 East Plano Parkway Plano, Texas \n75074\nor at such other address as is given in writing by ADAMS GOLF to CONSULTANT.\n12\n  IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed\nas of the date first set forth above.\n    APPROVED FOR CONSULTANT                       By: /s/ Tom Watson     Date: \nJanuary 13, 2005\nTom Watson\n    APPROVED FOR ADAMS GOLF, LTD.',
-                bboxes: [
-                    [9.281045626970677, 21.870930989583336, 80.57361490586224, 32.36624207159485],
-                ],
-                page: 9,
-            },
-        ],
-        'Renewal Term': [
-            {
-                _predicted: {
-                    answer: 'The Term of this Agreement shall be for a period of [* ****] years and [*****] \nmonths commencing the 1st day of September 2004 and terminating the [*****] day of\n[*****].',
-                    score: 0.9354602098464966,
+                    answer: '(each a “Party”, collectively “Parties”).',
+                    score: 0.5622143745422363,
                     page: 0,
                     bboxes: [
                         [
-                            9.281045626970677, 63.057801217743844, 80.58996075898213,
-                            4.411693534465755,
+                            33.88306689863445, 21.644057683876746, 21.5277099609375,
+                            1.0793092415055305,
                         ],
                     ],
-                    start: 821,
-                    end: 992,
+                    start: 683,
+                    end: 724,
                 },
-                answer: 'The Term of this Agreement shall be for a period of [* ****] years and [*****] \nmonths commencing the 1st day of September 2004 and terminating the [*****] day of\n[*****].',
+                answer: '(each a “Party”, collectively “Parties”).',
                 bboxes: [
-                    [9.281045626970677, 63.057801217743844, 80.58996075898213, 4.411693534465755],
+                    [33.88306689863445, 21.644057683876746, 21.5277099609375, 1.0793092415055305],
+                ],
+                page: 0,
+            },
+            {
+                _predicted: {
+                    answer: '(each a “Party”, collectively “Parties”).',
+                    score: 0.1279512643814087,
+                    page: 0,
+                    bboxes: [
+                        [
+                            33.88306689863445, 21.644057683876746, 21.5277099609375,
+                            1.0793092415055305,
+                        ],
+                    ],
+                    start: 683,
+                    end: 724,
+                },
+                answer: '(each a “Party”, collectively “Parties”).',
+                bboxes: [
+                    [33.88306689863445, 21.644057683876746, 21.5277099609375, 1.0793092415055305],
                 ],
                 page: 0,
             },
         ],
-        'Termination For Convenience': [
+        'Right of First Refusal/First Offer': [
             {
                 _predicted: {
-                    answer: "Thereafter, ADAMS GOLF shall have a period of thirty (30) days to either, at ADAMS\nGOLF'S sole discretion, supply CONSULTANT with MANDATORY PRODUCT that is \nacceptable to him or terminate the agreement.",
-                    score: 0.9329837560653687,
+                    answer: 'PNC will not be obligated to purchase those Ingredients\nfrom Supplier at a later time.',
+                    score: 0.5744850039482117,
+                    page: 8,
+                    bboxes: [
+                        [
+                            18.59663891191242, 45.6346307967451, 72.99184462603401,
+                            2.4287787865573094,
+                        ],
+                    ],
+                    start: 2729,
+                    end: 2815,
+                },
+                answer: 'PNC will not be obligated to purchase those Ingredients\nfrom Supplier at a later time.',
+                bboxes: [
+                    [18.59663891191242, 45.6346307967451, 72.99184462603401, 2.4287787865573094],
+                ],
+                page: 8,
+            },
+        ],
+        'Audit Rights': [
+            {
+                _predicted: {
+                    answer: 'Supplier will\nconduct [***] third-party food safety/food defense audits (the “Audits”) in compliance with, and consistent with, relevant audit\nschemes approved by the Global Food Safety Initiatives, AIB International, Silliker, or GMA SAFE.',
+                    score: 0.8815348148345947,
                     page: 2,
                     bboxes: [
                         [
-                            9.281045626970677, 46.88355802285551, 80.58832517636368,
-                            4.411693534465748,
+                            18.59663891191242, 30.115795362024013, 72.99284991096049,
+                            3.778193965377266,
                         ],
                     ],
-                    start: 1477,
-                    end: 1679,
+                    start: 1716,
+                    end: 1956,
                 },
-                answer: "Thereafter, ADAMS GOLF shall have a period of thirty (30) days to either, at ADAMS\nGOLF'S sole discretion, supply CONSULTANT with MANDATORY PRODUCT that is \nacceptable to him or terminate the agreement.",
+                answer: 'Supplier will\nconduct [***] third-party food safety/food defense audits (the “Audits”) in compliance with, and consistent with, relevant audit\nschemes approved by the Global Food Safety Initiatives, AIB International, Silliker, or GMA SAFE.',
                 bboxes: [
-                    [9.281045626970677, 46.88355802285551, 80.58832517636368, 4.411693534465748],
+                    [18.59663891191242, 30.115795362024013, 72.99284991096049, 3.778193965377266],
+                ],
+                page: 2,
+            },
+        ],
+        'Post-Termination Services': [
+            {
+                _predicted: {
+                    answer: 'In the event of such a termination, Supplier shall continue performance of any\nnonterminated portion of the Purchase Order, or any nonterminated Purchase Orders, and the quantity of Ingredient ordered and\nso terminated shall be deducted against any relevant Master Purchase Commitment.',
+                    score: 0.825230598449707,
+                    page: 2,
+                    bboxes: [
+                        [
+                            18.59663891191242, 51.707222909089225, 72.99162920783547,
+                            3.7782501438168055,
+                        ],
+                    ],
+                    start: 3136,
+                    end: 3421,
+                },
+                answer: 'In the event of such a termination, Supplier shall continue performance of any\nnonterminated portion of the Purchase Order, or any nonterminated Purchase Orders, and the quantity of Ingredient ordered and\nso terminated shall be deducted against any relevant Master Purchase Commitment.',
+                bboxes: [
+                    [18.59663891191242, 51.707222909089225, 72.99162920783547, 3.7782501438168055],
                 ],
                 page: 2,
             },
@@ -301,711 +216,478 @@ const documentData: IDocument = {
         'Warranty Duration': [
             {
                 _predicted: {
-                    answer: "Thereafter, ADAMS GOLF shall have a period of thirty (30) days to either, at ADAMS\nGOLF'S sole discretion, supply CONSULTANT with MANDATORY PRODUCT that is \nacceptable to him or terminate the agreement.",
-                    score: 0.9487840533256531,
-                    page: 2,
+                    answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
+                    score: 0.6002364158630371,
+                    page: 5,
                     bboxes: [
                         [
-                            9.281045626970677, 46.88355802285551, 80.58832517636368,
-                            4.411693534465748,
+                            18.59663891191242, 49.4581426407549, 72.99165998186385,
+                            3.7782211484931807,
                         ],
                     ],
-                    start: 1477,
-                    end: 1679,
+                    start: 2991,
+                    end: 3356,
                 },
-                answer: "Thereafter, ADAMS GOLF shall have a period of thirty (30) days to either, at ADAMS\nGOLF'S sole discretion, supply CONSULTANT with MANDATORY PRODUCT that is \nacceptable to him or terminate the agreement.",
+                answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
                 bboxes: [
-                    [9.281045626970677, 46.88355802285551, 80.58832517636368, 4.411693534465748],
+                    [18.59663891191242, 49.4581426407549, 72.99165998186385, 3.7782211484931807],
                 ],
-                page: 2,
-            },
-        ],
-        'Affiliate License-Licensee': [
-            {
-                _predicted: {
-                    answer: "CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license \nto use CONSULTANT'S ENDORSEMENT in connection with the manufacture, sale, \ndistribution, advertising and promotion of PRODUCT in the CONTRACT TERRITORY.",
-                    score: 0.42843136191368103,
-                    page: 1,
-                    bboxes: [
-                        [
-                            9.281045626970677, 35.11587971388692, 78.61119500951828,
-                            4.411697387695305,
-                        ],
-                    ],
-                    start: 448,
-                    end: 682,
-                },
-                answer: "CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license \nto use CONSULTANT'S ENDORSEMENT in connection with the manufacture, sale, \ndistribution, advertising and promotion of PRODUCT in the CONTRACT TERRITORY.",
-                bboxes: [
-                    [9.281045626970677, 35.11587971388692, 78.61119500951828, 4.411697387695305],
-                ],
-                page: 1,
-            },
-        ],
-        'Anti-Assignment': [
-            {
-                _predicted: {
-                    answer: 'Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses \nhereunder or to assign, alienate or otherwise transfer any of its rights or \nobligations hereunder.',
-                    score: 0.9366669058799744,
-                    page: 8,
-                    bboxes: [
-                        [
-                            9.281045626970677, 26.290122908775253, 73.71250539044148,
-                            4.411693534465755,
-                        ],
-                    ],
-                    start: 545,
-                    end: 721,
-                },
-                answer: 'Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses \nhereunder or to assign, alienate or otherwise transfer any of its rights or \nobligations hereunder.',
-                bboxes: [
-                    [9.281045626970677, 26.290122908775253, 73.71250539044148, 4.411693534465755],
-                ],
-                page: 8,
+                page: 5,
             },
         ],
         'Covenant Not To Sue': [
             {
                 _predicted: {
-                    answer: 'During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:',
-                    score: 0.48556074500083923,
-                    page: 1,
+                    answer: 'The Parties consent to, acknowledge, and agree that any dispute arising out of or relating to this Agreement, including the\nbreach, termination or validity thereof, shall be brought exclusively before the state and federal courts in and for the City of\nWilmington and County of New Castle, Delaware Each Party waives any objection based on forum non conveniens.',
+                    score: 0.7905166745185852,
+                    page: 9,
                     bboxes: [
                         [
-                            9.281045626970677, 39.52244459980666, 79.60793301950093,
-                            2.9470501524029302,
+                            18.59663, 9.87379, 72.9927,
+                            3.7782374583627156,
                         ],
                     ],
-                    start: 717,
-                    end: 851,
+                    start: 130,
+                    end: 491,
                 },
-                answer: 'During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:',
+                answer: 'The Parties consent to, acknowledge, and agree that any dispute arising out of or relating to this Agreement, including the\nbreach, termination or validity thereof, shall be brought exclusively before the state and federal courts in and for the City of\nWilmington and County of New Castle, Delaware Each Party waives any objection based on forum non conveniens.',
                 bboxes: [
-                    [9.281045626970677, 39.52244459980666, 79.60793301950093, 2.9470501524029302],
+                    [18.59663891, 9.8737974, 72.99270629, 3.77823745],
                 ],
-                page: 1,
+                page: 9,
             },
         ],
-        'Perpetual License': [
+        'IP Ownership Assignment': [
             {
                 _predicted: {
-                    answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT.',
-                    score: 0.598616361618042,
-                    page: 2,
-                    bboxes: [
-                        [
-                            9.281045626970677, 11.580526949179292, 74.69126196468576,
-                            2.9344192659012016,
-                        ],
-                    ],
-                    start: 30,
-                    end: 126,
-                },
-                answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT.',
-                bboxes: [
-                    [9.281045626970677, 11.580526949179292, 74.69126196468576, 2.9344192659012016],
-                ],
-                page: 2,
-            },
-        ],
-        'Minimum Commitment': [
-            {
-                _predicted: {
-                    answer: 'In each and every calendar year of this Agreement, CONSULTANT shall \nachieve a satisfactory record of play in a minimum of [* ****] professional golf \nassociation events on the SPGA and/or PGA tour (which shall include both the PGA \nand SPGA Tour Skins Games).',
-                    score: 0.8944527506828308,
-                    page: 2,
-                    bboxes: [
-                        [
-                            9.281045626970677, 71.88355416962595, 78.62754086263818,
-                            5.888967803030297,
-                        ],
-                    ],
-                    start: 2137,
-                    end: 2397,
-                },
-                answer: 'In each and every calendar year of this Agreement, CONSULTANT shall \nachieve a satisfactory record of play in a minimum of [* ****] professional golf \nassociation events on the SPGA and/or PGA tour (which shall include both the PGA \nand SPGA Tour Skins Games).',
-                bboxes: [
-                    [9.281045626970677, 71.88355416962595, 78.62754086263818, 5.888967803030297],
-                ],
-                page: 2,
-            },
-        ],
-        'Most Favored Nation': [
-            {
-                _predicted: {
-                    answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
-                    score: 0.41885507106781006,
+                    answer: 'Each Party shall retain ownership of all Intellectual Property Rights (as defined below): (1) owned or licensed by that Party prior\nto the commencement date of this Agreement; or (2) developed or acquired independently of this Agreement by that Party or its\nlicensors other than in connection with this Agreement.',
+                    score: 0.843777596950531,
                     page: 3,
                     bboxes: [
-                        [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                        [18.59663891191242, 38.13761441554706, 72.991957464138, 3.7782211484931736],
                     ],
-                    start: 15,
-                    end: 202,
+                    start: 2762,
+                    end: 3075,
                 },
-                answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
+                answer: 'Each Party shall retain ownership of all Intellectual Property Rights (as defined below): (1) owned or licensed by that Party prior\nto the commencement date of this Agreement; or (2) developed or acquired independently of this Agreement by that Party or its\nlicensors other than in connection with this Agreement.',
                 bboxes: [
-                    [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                    [18.59663891191242, 38.13761441554706, 72.991957464138, 3.7782211484931736],
                 ],
                 page: 3,
             },
         ],
-        'No-Solicit Of Customers': [
+        'Joint IP Ownership': [
             {
                 _predicted: {
-                    answer: "During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not: \nA.give the right to use or permit the use of CONSULTANT'S name, facsimile \nsignature, nickname, voice or likeness to any other manufacturer or seller of \nPRODUCT;\nB.sponsor or endorse PRODUCT made or sold by any other manufacturer or seller; or\nC.serve as a CONSULTANT or advisor of any other manufacturer or seller of PRODUCT.",
-                    score: 0.49041566252708435,
-                    page: 1,
-                    bboxes: [
-                        [
-                            9.281045626970677, 39.52244459980666, 80.57524051541597,
-                            13.237454192806965,
-                        ],
-                    ],
-                    start: 717,
-                    end: 1180,
-                },
-                answer: "During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not: \nA.give the right to use or permit the use of CONSULTANT'S name, facsimile \nsignature, nickname, voice or likeness to any other manufacturer or seller of \nPRODUCT;\nB.sponsor or endorse PRODUCT made or sold by any other manufacturer or seller; or\nC.serve as a CONSULTANT or advisor of any other manufacturer or seller of PRODUCT.",
-                bboxes: [
-                    [9.281045626970677, 39.52244459980666, 80.57524051541597, 13.237454192806965],
-                ],
-                page: 1,
-            },
-        ],
-        'No-Solicit Of Employees': [
-            {
-                _predicted: {
-                    answer: 'During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:',
-                    score: 0.6491132378578186,
-                    page: 1,
-                    bboxes: [
-                        [
-                            9.281045626970677, 39.52244459980666, 79.60793301950093,
-                            2.9470501524029302,
-                        ],
-                    ],
-                    start: 717,
-                    end: 851,
-                },
-                answer: 'During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:',
-                bboxes: [
-                    [9.281045626970677, 39.52244459980666, 79.60793301950093, 2.9470501524029302],
-                ],
-                page: 1,
-            },
-        ],
-        'Non-Compete': [
-            {
-                _predicted: {
-                    answer: "When endorsing a non-competitive product, under no \ncircumstances shall CONSULTANT wear, play, use, hold or in any way be associated \nwith an ADAMS GOLF competitor's Product.",
-                    score: 0.8792096972465515,
-                    page: 2,
-                    bboxes: [
-                        [
-                            9.281045626970677, 32.17395821002999, 78.61446617475522,
-                            4.4116973876953125,
-                        ],
-                    ],
-                    start: 936,
-                    end: 1110,
-                },
-                answer: "When endorsing a non-competitive product, under no \ncircumstances shall CONSULTANT wear, play, use, hold or in any way be associated \nwith an ADAMS GOLF competitor's Product.",
-                bboxes: [
-                    [9.281045626970677, 32.17395821002999, 78.61446617475522, 4.4116973876953125],
-                ],
-                page: 2,
-            },
-        ],
-        'Non-Disparagement': [
-            {
-                _predicted: {
-                    answer: 'During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:',
-                    score: 0.56395423412323,
-                    page: 1,
-                    bboxes: [
-                        [
-                            9.281045626970677, 39.52244459980666, 79.60793301950093,
-                            2.9470501524029302,
-                        ],
-                    ],
-                    start: 717,
-                    end: 851,
-                },
-                answer: 'During the term of this Agreement, unless otherwise \nauthorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:',
-                bboxes: [
-                    [9.281045626970677, 39.52244459980666, 79.60793301950093, 2.9470501524029302],
-                ],
-                page: 1,
-            },
-        ],
-        'Non-Transferable License': [
-            {
-                _predicted: {
-                    answer: 'Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses \nhereunder or to assign, alienate or otherwise transfer any of its rights or \nobligations hereunder.',
-                    score: 0.8392812013626099,
-                    page: 8,
-                    bboxes: [
-                        [
-                            9.281045626970677, 26.290122908775253, 73.71250539044148,
-                            4.411693534465755,
-                        ],
-                    ],
-                    start: 545,
-                    end: 721,
-                },
-                answer: 'Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses \nhereunder or to assign, alienate or otherwise transfer any of its rights or \nobligations hereunder.',
-                bboxes: [
-                    [9.281045626970677, 26.290122908775253, 73.71250539044148, 4.411693534465755],
-                ],
-                page: 8,
-            },
-        ],
-        'Post-Termination Services': [
-            {
-                _predicted: {
-                    answer: "If CONSULTANT'S relationship with [*****] \nterminates during this Agreement, CONSULTANT shall be permitted to replace the \n[*****] endorsement with another [*****] endorsement under the same terms and \nconditions expressed herein.",
-                    score: 0.47465378046035767,
-                    page: 1,
-                    bboxes: [
-                        [9.281045626970677, 71.88355416962595, 76.6504106957928, 5.888967803030297],
-                    ],
-                    start: 2178,
-                    end: 2408,
-                },
-                answer: "If CONSULTANT'S relationship with [*****] \nterminates during this Agreement, CONSULTANT shall be permitted to replace the \n[*****] endorsement with another [*****] endorsement under the same terms and \nconditions expressed herein.",
-                bboxes: [
-                    [9.281045626970677, 71.88355416962595, 76.6504106957928, 5.888967803030297],
-                ],
-                page: 1,
-            },
-        ],
-        'Price Restrictions': [
-            {
-                _predicted: {
-                    answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
-                    score: 0.8202810883522034,
+                    answer: 'Ownership in the Intellectual Property Rights, if any, of any developments and/or modifications to the Ingredients during the\nTerm shall be [***].',
+                    score: 0.6147525906562805,
                     page: 3,
                     bboxes: [
-                        [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                        [
+                            18.59663891191242, 42.18599949200193, 72.99275758887539,
+                            2.4287787865573023,
+                        ],
                     ],
-                    start: 15,
-                    end: 202,
+                    start: 3080,
+                    end: 3226,
                 },
-                answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
+                answer: 'Ownership in the Intellectual Property Rights, if any, of any developments and/or modifications to the Ingredients during the\nTerm shall be [***].',
                 bboxes: [
-                    [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                    [18.59663891191242, 42.18599949200193, 72.99275758887539, 2.4287787865573023],
                 ],
                 page: 3,
             },
         ],
-        'Unlimited/All-You-Can-Eat-License': [
+        'Uncapped Liability': [
             {
                 _predicted: {
-                    answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT. (It is expressly understood by the parties that CONSULTANT may \nplay [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not \nlimited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse \nthose clubs and/or putter.)',
-                    score: 0.654549241065979,
-                    page: 2,
+                    answer: 'Except for a Party’s gross negligence or intentional acts or omissions and its obligations of indemnity under this Agreement,\nunder no circumstances will either Party be liable to the other Party for [***].',
+                    score: 0.9082448482513428,
+                    page: 6,
                     bboxes: [
                         [
-                            9.281045626970677, 11.580526949179292, 79.61119421167311,
-                            7.35361118509312,
+                            18.59663891191242, 40.611611409311905, 72.99151636973147,
+                            2.4287787865573094,
                         ],
                     ],
-                    start: 30,
-                    end: 379,
+                    start: 2176,
+                    end: 2382,
                 },
-                answer: 'During the term of this Agreement, CONSULTANT shall exclusively play/use the \nMANDATORY PRODUCT. (It is expressly understood by the parties that CONSULTANT may \nplay [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not \nlimited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse \nthose clubs and/or putter.)',
+                answer: 'Except for a Party’s gross negligence or intentional acts or omissions and its obligations of indemnity under this Agreement,\nunder no circumstances will either Party be liable to the other Party for [***].',
                 bboxes: [
-                    [9.281045626970677, 11.580526949179292, 79.61119421167311, 7.35361118509312],
+                    [18.59663891191242, 40.611611409311905, 72.99151636973147, 2.4287787865573094],
                 ],
-                page: 2,
+                page: 6,
             },
         ],
-        'Volume Restriction': [
+        'Expiration Date': [
             {
                 _predicted: {
-                    answer: "During  the term of this Agreement, CONSULTANT  shall make himself available on \nnot more than [*****]  days for television and radio commercials, photo shoots, \nmodeling and  promotional appearances compatible with CONSULTANT'S  own practice, \nplay and personal time requirements.",
-                    score: 0.8327234387397766,
-                    page: 3,
+                    answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
+                    score: 0.9680111408233643,
+                    page: 5,
                     bboxes: [
                         [
-                            9.281045626970677, 65.99971886837122, 79.61119421167311,
-                            5.888967803030283,
+                            18.59663891191242, 49.4581426407549, 72.99165998186385,
+                            3.7782211484931807,
                         ],
                     ],
-                    start: 2081,
-                    end: 2362,
+                    start: 2991,
+                    end: 3356,
                 },
-                answer: "During  the term of this Agreement, CONSULTANT  shall make himself available on \nnot more than [*****]  days for television and radio commercials, photo shoots, \nmodeling and  promotional appearances compatible with CONSULTANT'S  own practice, \nplay and personal time requirements.",
+                answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
                 bboxes: [
-                    [9.281045626970677, 65.99971886837122, 79.61119421167311, 5.888967803030283],
+                    [18.59663891191242, 49.4581426407549, 72.99165998186385, 3.7782211484931807],
                 ],
-                page: 3,
+                page: 5,
+                value: '157680000',
             },
         ],
-        'Liquidated Damages': [
+        'Notice Period To Terminate Renewal': [
             {
                 _predicted: {
-                    answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
-                    score: 0.7144172191619873,
-                    page: 3,
+                    answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
+                    score: 0.993715763092041,
+                    page: 5,
                     bboxes: [
-                        [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                        [
+                            18.59663891191242, 49.4581426407549, 72.99165998186385,
+                            3.7782211484931807,
+                        ],
                     ],
-                    start: 15,
-                    end: 202,
+                    start: 2991,
+                    end: 3356,
                 },
-                answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
+                answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
                 bboxes: [
-                    [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                    [18.59663891191242, 49.4581426407549, 72.99165998186385, 3.7782211484931807],
                 ],
-                page: 3,
+                page: 5,
             },
         ],
-        'Revenue/Profit Sharing': [
+        'Renewal Term': [
             {
                 _predicted: {
-                    answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
-                    score: 0.6452838778495789,
-                    page: 3,
+                    answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
+                    score: 0.9938049912452698,
+                    page: 5,
                     bboxes: [
-                        [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                        [
+                            18.59663891191242, 49.4581426407549, 72.99165998186385,
+                            3.7782211484931807,
+                        ],
                     ],
-                    start: 15,
-                    end: 202,
+                    start: 2991,
+                    end: 3356,
                 },
-                answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
+                answer: 'This Agreement will commence on the Effective Date and continue for an Initial Term of five (5) years, and will automatically\nrenew for additional periods of five (5) years unless one Party notifies the other of its intention not to renew, no less than 12\nmonths prior to the expiration of the then-current term, unless terminated as permitted under this Agreement.',
                 bboxes: [
-                    [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                    [18.59663891191242, 49.4581426407549, 72.99165998186385, 3.7782211484931807],
                 ],
-                page: 3,
+                page: 5,
+            },
+        ],
+        'Termination For Convenience': [
+            {
+                _predicted: {
+                    answer: 'Either Party may terminate this Agreement for cause if the other Party fails to perform any material provision of this Agreement or\ncommits a material breach of this Agreement which is not corrected within [***] after receiving written notice of the failure or\nbreach. except that if the default is by',
+                    score: 0.2956330180168152,
+                    page: 5,
+                    bboxes: [
+                        [
+                            18.59663891191242, 54.63108234903875, 72.9917112719111,
+                            3.7782501438168126,
+                        ],
+                    ],
+                    start: 3361,
+                    end: 3662,
+                },
+                answer: 'Either Party may terminate this Agreement for cause if the other Party fails to perform any material provision of this Agreement or\ncommits a material breach of this Agreement which is not corrected within [***] after receiving written notice of the failure or\nbreach. except that if the default is by',
+                bboxes: [
+                    [18.59663891191242, 54.63108234903875, 72.9917112719111, 3.7782501438168126],
+                ],
+                page: 5,
             },
         ],
         'Cap On Liability': [
             {
                 _predicted: {
-                    answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
-                    score: 0.8239918947219849,
-                    page: 3,
+                    answer: 'Except for a Party’s gross negligence or intentional acts or omissions and its obligations of indemnity under this Agreement,\nunder no circumstances will either Party be liable to the other Party for [***].',
+                    score: 0.9101532101631165,
+                    page: 6,
                     bboxes: [
-                        [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                        [
+                            18.59663891191242, 40.611611409311905, 72.99151636973147,
+                            2.4287787865573094,
+                        ],
                     ],
-                    start: 15,
-                    end: 202,
+                    start: 2176,
+                    end: 2382,
                 },
-                answer: 'For example, if in the calendar year 2005 CONSULTANT  achieves a \nsatisfactory record of play in [*****] events, he shall repay ADAMS GOLF [*****] \ndollars no later than January 31, 2006.',
+                answer: 'Except for a Party’s gross negligence or intentional acts or omissions and its obligations of indemnity under this Agreement,\nunder no circumstances will either Party be liable to the other Party for [***].',
                 bboxes: [
-                    [9.281045626970677, 7.161335029987375, 78.61283059213675, 4.41169353446575],
+                    [18.59663891191242, 40.611611409311905, 72.99151636973147, 2.4287787865573094],
                 ],
-                page: 3,
+                page: 6,
             },
         ],
         'Change Of Control': [
             {
                 _predicted: {
-                    answer: "Notwithstanding any other paragraph of this Agreement, in the event that \nCONSULTANT dies or is unable to play tour golf at all, ADAMS GOLF may terminate \nthis Agreement on thirty (30) days' written notice.",
-                    score: 0.3729607164859772,
+                    answer: 'On the termination of this Agreement for any reason, all rights granted to Supplier under this Agreement will immediately cease,\nand Supplier must deliver to PNC all written or recorded materials relating to the Confidential Information of PNC in the\npossession or control of Supplier or any of its related party, subject to Section 5.2.',
+                    score: 0.40812671184539795,
                     page: 6,
                     bboxes: [
                         [
-                            9.281045626970677, 58.65123247859454, 77.61609258215412,
-                            4.4116973876953125,
+                            18.59663891191242, 16.321241147727694, 72.99286016896994,
+                            3.778222960700898,
                         ],
                     ],
-                    start: 1902,
-                    end: 2108,
+                    start: 523,
+                    end: 860,
                 },
-                answer: "Notwithstanding any other paragraph of this Agreement, in the event that \nCONSULTANT dies or is unable to play tour golf at all, ADAMS GOLF may terminate \nthis Agreement on thirty (30) days' written notice.",
+                answer: 'On the termination of this Agreement for any reason, all rights granted to Supplier under this Agreement will immediately cease,\nand Supplier must deliver to PNC all written or recorded materials relating to the Confidential Information of PNC in the\npossession or control of Supplier or any of its related party, subject to Section 5.2.',
                 bboxes: [
-                    [9.281045626970677, 58.65123247859454, 77.61609258215412, 4.4116973876953125],
+                    [18.59663891191242, 16.321241147727694, 72.99286016896994, 3.778222960700898],
                 ],
                 page: 6,
+            },
+        ],
+        'Insurance': [
+            {
+                _predicted: {
+                    answer: 'Supplier shall maintain insurance with an insurance company with an equivalent of an A.M. Best rating of “A” or better, of the\nfollowing kinds and in the following amounts during the term of this Agreement:',
+                    score: 0.8914428353309631,
+                    page: 6,
+                    bboxes: [
+                        [
+                            18.59663891191242, 50.05788191480478, 72.9927575888754,
+                            2.4287497912336775,
+                        ],
+                    ],
+                    start: 2697,
+                    end: 2903,
+                },
+                answer: 'Supplier shall maintain insurance with an insurance company with an equivalent of an A.M. Best rating of “A” or better, of the\nfollowing kinds and in the following amounts during the term of this Agreement:',
+                bboxes: [
+                    [18.59663891191242, 50.05788191480478, 72.9927575888754, 2.4287497912336775],
+                ],
+                page: 6,
+            },
+        ],
+        'Most Favored Nation': [
+            {
+                _predicted: {
+                    answer: 'Supplier shall maintain insurance with an insurance company with an equivalent of an A.M. Best rating of “A” or better, of the\nfollowing kinds and in the following amounts during the term of this Agreement:\n7.5\n7.5.1\nComprehensive General Liability (CGL) Insurance with limits of not less than [***] each occurrence and [***] in the\naggregate, including Contractual, Completed-Operations and',
+                    score: 0.3571132719516754,
+                    page: 6,
+                    bboxes: [
+                        [
+                            8.411764577657236, 50.05788191480478, 83.17763192313059,
+                            6.477163863012173,
+                        ],
+                    ],
+                    start: 2697,
+                    end: 3088,
+                },
+                answer: 'Supplier shall maintain insurance with an insurance company with an equivalent of an A.M. Best rating of “A” or better, of the\nfollowing kinds and in the following amounts during the term of this Agreement:\n7.5\n7.5.1\nComprehensive General Liability (CGL) Insurance with limits of not less than [***] each occurrence and [***] in the\naggregate, including Contractual, Completed-Operations and',
+                bboxes: [
+                    [8.411764577657236, 50.05788191480478, 83.17763192313059, 6.477163863012173],
+                ],
+                page: 6,
+            },
+        ],
+        'Price Restrictions': [
+            {
+                _predicted: {
+                    answer: 'Comprehensive General Liability (CGL) Insurance with limits of not less than [***] each occurrence and [***] in the\naggregate, including Contractual, Completed-Operations and',
+                    score: 0.3245408535003662,
+                    page: 6,
+                    bboxes: [
+                        [
+                            23.68907768185399, 54.10626699125965, 67.90028804490547,
+                            2.4287787865573023,
+                        ],
+                    ],
+                    start: 2914,
+                    end: 3088,
+                },
+                answer: 'Comprehensive General Liability (CGL) Insurance with limits of not less than [***] each occurrence and [***] in the\naggregate, including Contractual, Completed-Operations and',
+                bboxes: [
+                    [23.68907768185399, 54.10626699125965, 67.90028804490547, 2.4287787865573023],
+                ],
+                page: 6,
+            },
+        ],
+        'Volume Restriction': [
+            {
+                _predicted: {
+                    answer: 'Comprehensive General Liability (CGL) Insurance with limits of not less than [***] each occurrence and [***] in the\naggregate, including Contractual, Completed-Operations and',
+                    score: 0.5147721767425537,
+                    page: 6,
+                    bboxes: [
+                        [
+                            23.68907768185399, 54.10626699125965, 67.90028804490547,
+                            2.4287787865573023,
+                        ],
+                    ],
+                    start: 2914,
+                    end: 3088,
+                },
+                answer: 'Comprehensive General Liability (CGL) Insurance with limits of not less than [***] each occurrence and [***] in the\naggregate, including Contractual, Completed-Operations and',
+                bboxes: [
+                    [23.68907768185399, 54.10626699125965, 67.90028804490547, 2.4287787865573023],
+                ],
+                page: 6,
+            },
+        ],
+        'Source Code Escrow': [
+            {
+                _predicted: {
+                    answer: 'The maximum liability of one Party to the other Party and its affiliates in relation to this Agreement will be [***] (“Liability Cap”),\nprovided however that:',
+                    score: 0.4646502137184143,
+                    page: 7,
+                    bboxes: [
+                        [
+                            16.050420168067227, 48.78343595744879, 75.53784795168067,
+                            2.4287787865573023,
+                        ],
+                    ],
+                    start: 3038,
+                    end: 3196,
+                },
+                answer: 'The maximum liability of one Party to the other Party and its affiliates in relation to this Agreement will be [***] (“Liability Cap”),\nprovided however that:',
+                bboxes: [
+                    [16.050420168067227, 48.78343595744879, 75.53784795168067, 2.4287787865573023],
+                ],
+                page: 7,
+            },
+        ],
+        'Non-Compete': [
+            {
+                _predicted: {
+                    answer: 'Notwithstanding anything herein\nto the contrary, in the event of a Force Majeure Event, or any other circumstance that limits Fonterra’s ability to produce or\ndeliver product, Supplier will exercise its best efforts to comply with its obligations hereunder, mitigate the adverse impact on and\nnot disfavor PNC, and will treat it in parity with its other customers.',
+                    score: 0.27870187163352966,
+                    page: 8,
+                    bboxes: [
+                        [
+                            18.59663891191242, 25.61756233704628, 72.99161894982602,
+                            5.127708815622221,
+                        ],
+                    ],
+                    start: 1188,
+                    end: 1552,
+                },
+                answer: 'Notwithstanding anything herein\nto the contrary, in the event of a Force Majeure Event, or any other circumstance that limits Fonterra’s ability to produce or\ndeliver product, Supplier will exercise its best efforts to comply with its obligations hereunder, mitigate the adverse impact on and\nnot disfavor PNC, and will treat it in parity with its other customers.',
+                bboxes: [
+                    [18.59663891191242, 25.61756233704628, 72.99161894982602, 5.127708815622221],
+                ],
+                page: 8,
+            },
+        ],
+        'Anti-Assignment': [
+            {
+                _predicted: {
+                    answer: 'Neither Party may transfer or assign any of its rights or obligations under this Agreement without the prior written consent\nof the other Party, except that either Party may assign this Agreement to any entity controlled by it, its parents, subsidiaries, or affiliates,\nor to any purchaser of the business to which this Agreement relates subject to the other Parties consent which will not be unreasonably\nwithheld or delayed.',
+                    score: 0.9630294442176819,
+                    page: 9,
+                    bboxes: [
+                        [
+                            13.504202706473215, 15.271653925154952, 78.0852143103335,
+                            5.127708815622215,
+                        ],
+                    ],
+                    start: 507,
+                    end: 933,
+                },
+                answer: 'Neither Party may transfer or assign any of its rights or obligations under this Agreement without the prior written consent\nof the other Party, except that either Party may assign this Agreement to any entity controlled by it, its parents, subsidiaries, or affiliates,\nor to any purchaser of the business to which this Agreement relates subject to the other Parties consent which will not be unreasonably\nwithheld or delayed.',
+                bboxes: [
+                    [13.504202706473215, 15.271653925154952, 78.0852143103335, 5.127708815622215],
+                ],
+                page: 9,
             },
         ],
         'Governing Law': [
             {
                 _predicted: {
-                    answer: 'This Agreement shall be governed and construed according to the laws of the State \nof Kansas.',
-                    score: 0.9972326755523682,
-                    page: 7,
+                    answer: 'This Agreement will be governed by the laws of the State of Delaware without regard to its conflicts of law principles.',
+                    score: 0.9965599775314331,
+                    page: 9,
                     bboxes: [
                         [
-                            9.281045626970677, 36.580526949179294, 79.59158716638103,
-                            2.9470501524029302,
+                            18.59663891191242, 7.174869274583395, 66.20167323521206,
+                            1.0793092415055305,
                         ],
                     ],
-                    start: 780,
-                    end: 873,
+                    start: 5,
+                    end: 124,
                 },
-                answer: 'This Agreement shall be governed and construed according to the laws of the State \nof Kansas.',
+                answer: 'This Agreement will be governed by the laws of the State of Delaware without regard to its conflicts of law principles.',
                 bboxes: [
-                    [9.281045626970677, 36.580526949179294, 79.59158716638103, 2.9470501524029302],
+                    [18.59663891191242, 7.174869274583395, 66.20167323521206, 1.0793092415055305],
                 ],
-                page: 7,
+                page: 9,
+            },
+        ],
+        'Non-Disparagement': [
+            {
+                _predicted: {
+                    answer: 'Supplier shall prohibit all forms of unlawful discrimination, abuse, harassment, violence and retaliation.',
+                    score: 0.769906759262085,
+                    page: 10,
+                    bboxes: [
+                        [
+                            31.647151658514964, 10.923391962844233, 57.71322042000394,
+                            1.0793092415055305,
+                        ],
+                    ],
+                    start: 243,
+                    end: 349,
+                },
+                answer: 'Supplier shall prohibit all forms of unlawful discrimination, abuse, harassment, violence and retaliation.',
+                bboxes: [
+                    [31.647151658514964, 10.923391962844233, 57.71322042000394, 1.0793092415055305],
+                ],
+                page: 10,
+            },
+        ],
+        'Third Party Beneficiary': [
+            {
+                _predicted: {
+                    answer: 'This Agreement will be binding upon, and\nwill inure to the benefit of, the parties, their successors and permitted assigns.',
+                    score: 0.6660757064819336,
+                    page: 10,
+                    bboxes: [
+                        [
+                            18.59663891191242, 51.63226999749481, 72.99152662774094,
+                            2.4287751621418394,
+                        ],
+                    ],
+                    start: 2885,
+                    end: 3008,
+                },
+                answer: 'This Agreement will be binding upon, and\nwill inure to the benefit of, the parties, their successors and permitted assigns.',
+                bboxes: [
+                    [18.59663891191242, 51.63226999749481, 72.99152662774094, 2.4287751621418394],
+                ],
+                page: 10,
             },
         ],
     },
     entities: {
         'Dates and Times': [
             {
-                text: 'January 13, 2005',
+                text: '31 October 2019',
                 detections: [
                     {
-                        text: 'January 13, 2005',
+                        text: '31 October 2019',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                42.68791846979677, 36.580526949179294, 15.72067161011541,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'January 31, 2006',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                30.89379204644097, 10.103252680614741, 16.701063766978145,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'January 13, 2005',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 43.94163651899858, 15.719036650813482,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'January 13, 2005',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                29.91339988957823, 54.23204055940262, 15.719041014029308,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'the 1st day of September 2004',
-                detections: [
-                    {
-                        text: 'the 1st day of September 2004',
-                        page: 0,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                26.97385650834227, 64.5350754863084, 28.49518769706776,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'the [*****] day of [*****].',
-                detections: [
-                    {
-                        text: 'the [*****] day of\n[*****].',
-                        page: 0,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 64.5350754863084, 80.58996075898213,
-                                2.934419265901198,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'thirty (30) days',
-                detections: [
-                    {
-                        text: 'thirty (30) days',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                54.483665516173915, 46.88355802285551, 15.71903602749694,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: "thirty (30) days'",
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                26.972225912256174, 61.59315398245147, 16.69943566415824,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'each and every calendar year',
-                detections: [
-                    {
-                        text: 'each and every calendar year',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                20.094771790348627, 71.88355416962595, 27.51315871095346,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'a calendar year',
-                detections: [
-                    {
-                        text: 'a \ncalendar year',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 77.7673971773398, 79.60793301950093,
-                                2.9470501524029373,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'calendar year',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                55.478757970473346, 83.65123247859454, 13.7435464298024,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'calendar year',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                18.11928219265408, 7.161335029987375, 8.841586892121757,
-                                1.4697758838383832,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'each calendar year',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                66.27614638384651, 15.987095688328598, 17.69616120780995,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'the given calendar year',
-                detections: [
-                    {
-                        text: 'the given calendar year',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                28.93301022598167, 80.70931482796718, 22.596493889303765,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'Year 3',
-                detections: [
-                    {
-                        text: 'Year 3',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                53.50163777669271, 86.59315012922191, 5.900409174900432,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'Year 4',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                73.1699376324423, 86.59315012922191, 5.8857038909313815,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'one month',
-                detections: [
-                    {
-                        text: 'one month',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                53.50164276322508, 91.01234204841383, 8.841585645488664,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'Sunday',
-                detections: [
-                    {
-                        text: 'Sunday',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                57.44118285334967, 58.65123247859454, 5.885703890931374,
-                                1.4697758838383805,
+                                49.59316734506303, 17.595672607421875, 9.935097574185917,
+                                1.0793092415055305,
                             ],
                         ],
                     },
@@ -1016,291 +698,178 @@ const documentData: IDocument = {
                 detections: [
                     {
                         text: 'Monday',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                77.09477742513022, 58.65123247859454, 5.885703890931367,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'morning',
-                detections: [
-                    {
-                        text: 'morning',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 60.11587971388691, 6.866097917743758,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'ninety (90) days',
-                detections: [
-                    {
-                        text: 'ninety (90) days',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                65.29902040568831, 21.870930989583336, 15.71903602749694,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'September 1, 2004',
-                detections: [
-                    {
-                        text: 'September 1, 2004',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                52.52124561982996, 33.63860929855193, 16.701063766978145,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'year-end',
-                detections: [
-                    {
-                        text: 'year-end',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                75.13072693270017, 43.94163651899858, 7.861193488625915,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'year end',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                69.23366870755464, 61.59315398245147, 7.861193488625915,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'year end',
-                detections: [
-                    {
-                        text: 'year end',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                56.46079069648693, 79.24467144590436, 7.861193488625922,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'three (3) business days',
-                detections: [
-                    {
-                        text: 'three (3) \nbusiness days',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 21.870930989583336, 76.65204627841126,
-                                2.9470501524029338,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'fifteen (15) days',
-                detections: [
-                    {
-                        text: 'fifteen (15) days',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                16.15849787892859, 82.18658909653172, 16.699431924258963,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'fifteen (15) day',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                34.83170403374566, 83.65123247859454, 15.719038520763121,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'months',
-                detections: [
-                    {
-                        text: 'months',
-                        page: 7,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                73.16993264590992, 14.522444599806661, 5.885703890931367,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                ],
-            },
-        ],
-        'Individuals': [
-            {
-                text: 'TOM WATSON',
-                detections: [
-                    {
-                        text: 'TOM WATSON',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 38.057801217743844, 10.787666545194735,
-                                1.4697758838383805,
+                                78.29396993172269, 55.38069845095382, 4.625875008206407,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'CONSULTANT',
+                text: '3:00 p.m. Eastern Time',
                 detections: [
                     {
-                        text: 'CONSULTANT',
+                        text: '3:00 p.m. Eastern Time',
+                        page: 0,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                68.4421930393251, 56.73019880353697, 13.19833450958508,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'business day',
+                detections: [
+                    {
+                        text: 'business day',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                13.630699350052522, 7.174869274583395, 7.620146935727414,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'each calendar quarter',
+                detections: [
+                    {
+                        text: 'each calendar quarter',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                27.654147108061977, 49.00833818521749, 12.194239512211134,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'normal business hours',
+                detections: [
+                    {
+                        text: 'normal business hours',
+                        page: 3,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                24.902164234834558, 9.798830082184345, 12.70570386357668,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '2016',
+                detections: [
+                    {
+                        text: '2016',
                         page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                17.138890035791334, 54.23204055940262, 9.807271271749258,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                26.972223418989994, 63.057801217743844, 11.768056832107842,
-                                1.4697758838383805,
+                                48.107243385635506, 15.271668422816767, 2.7545781496192205,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Tom Watson',
+                text: 'five (5) years',
                 detections: [
                     {
-                        text: 'Tom Watson',
-                        page: 9,
+                        text: 'five (5) years',
+                        page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                13.202616124371296, 8.638609298551927, 9.821976555718315,
-                                1.469775883838384,
+                                70.33526252297794, 49.4581426407549, 8.032380432641801,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'Tom Watson',
-                        page: 9,
+                        text: 'five (5) years',
+                        page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                66.27778196646497, 42.464366103663586, 9.821977802351398,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'Tom Watson',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 46.88355802285551, 9.807274388331994,
-                                1.4697758838383805,
+                                37.16934075876444, 50.80758500269077, 7.818031631597947,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Oliver G. "Chip" Brewer III',
+                text: 'no less than 12 months prior',
                 detections: [
                     {
-                        text: 'Oliver G. "Chip" \nBrewer III',
-                        page: 9,
+                        text: 'no less than 12\nmonths prior',
+                        page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 52.7673971773398, 78.61283059213675,
-                                2.934419265901198,
+                                18.59663891191242, 50.80758500269077, 72.99165998186385,
+                                2.4287787865573094,
                             ],
                         ],
                     },
+                ],
+            },
+            {
+                text: 'no less than ten (10) days',
+                detections: [
                     {
-                        text: 'Oliver G. ("Chip") Brewer III',
-                        page: 9,
+                        text: 'no less than ten (10) days',
+                        page: 7,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 57.17396206325955, 28.49518333385193,
-                                1.4697758838383805,
+                                64.44938082654937, 22.019025209114275, 14.742913767069325,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'thirty (30) days',
+                detections: [
+                    {
+                        text: 'thirty (30)\ndays',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 24.717967923633278, 72.99161894982602,
+                                2.42878059876503,
                             ],
                         ],
                     },
@@ -1309,2046 +878,1107 @@ const documentData: IDocument = {
         ],
         'Organizations': [
             {
-                text: 'ADAMS GOLF, LTD.',
+                text: 'PNC',
                 detections: [
                     {
-                        text: 'ADAMS GOLF, LTD.',
+                        text: 'PNC',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                66.28104814516954, 38.057801217743844, 15.719036027496927,
-                                1.4697758838383805,
+                                13.569974498588497, 20.294615321940878, 2.016737481125263,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF, LTD',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                35.81046310125613, 21.870930989583336, 15.719041014029301,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF, LTD',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                25.99346684474571, 52.7673971773398, 15.719041014029315,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'ADAMS GOLF',
-                detections: [
-                    {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 39.52244459980666, 41.26969692753811,
-                                4.411697387695305,
+                                15.781230766232273, 24.34300039839575, 2.773660611705619,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                18.11928219265408, 45.40628375429095, 9.821979048984506,
-                                1.4697758838383805,
+                                47.05142750459559, 32.439830354160485, 2.7018058199842443,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: "ADAMS \nGOLF'S",
+                        text: 'PNC',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 79.24467144590436, 78.61283059213676,
-                                2.934419265901198,
+                                49.40590225347952, 41.88604286900608, 3.0342063583245817,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
+                        page: 0,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 48.63337065997996, 2.748150224445247,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 1,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                46.624187394684434, 35.11587971388692, 9.821977802351412,
-                                1.4697758838383805,
+                                62.42772206538866, 8.52436962716653, 2.715813131893377,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                69.37179950105042, 19.320082494595272, 2.7046883206407557,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                29.09979042886686, 26.067410285569142, 2.7331799418986336,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                33.67139543805804, 31.465297526814872, 2.7304718274028374,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                58.85817070969013, 54.406165623608224, 3.0652163209033603,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                61.391760561646535, 57.10510833812723, 3.036858053768384,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                50.56046629263684, 14.522444599806661, 9.82197780235142,
-                                1.469775883838384,
+                                67.96053333442752, 30.115795362024013, 2.774283785779943,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                23.03594701430377, 29.232040559402623, 9.821980295617596,
-                                1.469775883838384,
+                                36.16531500295431, 34.16418225068661, 3.820295574284401,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                17.138890035791334, 35.11587971388692, 9.821979048984502,
-                                1.4697758838383805,
+                                18.59663891191242, 43.610452756179484, 2.732410591189602,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                21.076798283196744, 46.88355802285551, 9.821980295617593,
-                                1.4697758838383805,
+                                18.59663891191242, 57.10510833812723, 2.734708385307247,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                38.7663473490796, 79.24467144590436, 9.8219802956176,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                70.214055877885, 8.638609298551927, 9.821977802351412,
-                                1.469775883838384,
+                                12.577599277015494, 8.449358724924844, 2.728901069705227,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                39.74836760876225, 15.987095688328598, 9.821977802351412,
-                                1.469775883838384,
+                                56.746036305147065, 16.54615787315822, 3.1153677291229016,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                23.03594701430377, 55.70931482796717, 9.821980295617596,
-                                1.4697758838383805,
+                                50.638807280724784, 19.245071592353586, 3.7982434184611336,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: "ADAMS GOLF'S",
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                37.78595519221686, 63.057801217743844, 11.78276460934309,
-                                1.4697758838383805,
+                                74.0780665293461, 20.594542949613086, 2.7170953830751046,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                45.647066403058616, 71.88355416962595, 9.821977802351412,
-                                1.4697758838383805,
+                                8.411764577657236, 25.99239938332746, 2.735055234251904,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 74.82547952671243, 9.821979672301051,
-                                1.4697758838383805,
+                                63.753795463497895, 32.73972898650905, 2.724609375,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
-                        page: 4,
+                        text: 'PNC',
+                        page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                66.27941754908343, 11.580526949179292, 9.821977802351412,
-                                1.469775883838384,
+                                73.23492482930672, 34.08920034376855, 2.688593503807766,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 21.870930989583336, 9.821979672301051,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: "ADAMS GOLF'S",
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                61.37745676476971, 43.94163651899858, 11.782762116076889,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                57.43954228419884, 51.290122908775245, 9.821977802351405,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                63.336600509344365, 65.99971886837122, 10.802369959214161,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: "ADAMS GOLF'S",
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 85.1285067471591, 11.782765232659631,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 35.11587971388692, 9.821979672301051,
-                                1.4697758838383805,
+                                62.38855185628939, 24.493022202879118, 3.1506604106486336,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: "ADAMS GOLF'S",
+                        text: 'PNC',
+                        page: 5,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                64.59032587644433, 31.015435080630194, 3.0596103187368726,
+                                1.0793074292978027,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 6,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                34.830070944393384, 8.638609298551927, 11.78276710260927,
-                                1.469775883838384,
+                                43.40255609079569, 7.099887367665343, 2.767369887408087,
+                                1.0793092415055296,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 6,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                77.09314184251174, 17.46436225043403, 9.821977802351412,
-                                1.469775883838384,
+                                84.99707133830094, 17.67068350966356, 2.786131786699059,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 6,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                48.586607291028386, 21.870930989583336, 9.821977802351412,
-                                1.469775883838384,
+                                50.46640091583509, 46.00946784302627, 2.7186597295168085,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                11.241830564012714, 35.11587971388692, 9.821980295617594,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: "ADAMS GOLF'S",
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                64.31699765273949, 40.99971886837121, 11.782762116076881,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                64.31699266620711, 43.94163651899858, 9.821977802351398,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: "ADAMS GOLF'S",
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                69.2336587344899, 48.348205258147885, 11.782762116076881,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                73.16993264590992, 63.057801217743844, 9.821977802351412,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                46.624187394684434, 85.1285067471591, 9.821977802351412,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 7,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                73.17320381114686, 80.70931482796718, 9.821977802351398,
-                                1.4697758838383805,
+                                55.875085141478465, 24.717967923633278, 2.7319233357405466,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                17.138890035791334, 26.290122908775253, 9.821979048984502,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                59.4003315844567, 45.40628375429095, 10.802369959214154,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                77.08987067727482, 48.348205258147885, 10.802369959214161,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                63.33496991325828, 55.70931482796717, 9.821977802351412,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                54.48203492008783, 15.987095688328598, 10.802369959214161,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                16.15849787892859, 60.11587971388691, 9.821979048984506,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                24.996733821295443, 45.40628375429095, 9.8219802956176,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                59.4003315844567, 13.04517033124211, 9.821977802351405,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: "ADAMS GOLF'S",
-                detections: [
-                    {
-                        text: "ADAMS GOLF'S",
-                        page: 0,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 48.348205258147885, 11.782765232659631,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 0,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                78.07189343022365, 86.59315012922191, 9.821972815819038,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                45.64379523782169, 40.99971886837121, 9.821977802351412,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                58.4183038449755, 15.987095688328598, 9.821977802351398,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                20.094771790348627, 32.17395821002999, 10.802371205847248,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: "ADAMS\nGOLF'S",
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 46.88355802285551, 80.58832517636368,
-                                2.9344231191307557,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                35.81046310125613, 91.01234204841383, 9.82198278888378,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                39.74837010202844, 21.870930989583336, 9.8219802956176,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                50.56209688872294, 74.82547952671243, 9.821977802351405,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                79.06699585758783, 17.46436225043403, 9.821982788883787,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                78.07189841675603, 63.057801217743844, 9.821977802351398,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                46.6258229773029, 91.01234204841383, 9.821977802351405,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                51.54249403211806, 23.348205258147885, 9.821977802351412,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                23.035949507569956, 42.464366103663586, 9.821980295617596,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                63.33496991325828, 60.11587971388691, 9.821977802351412,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS  GOLF',
+                        text: 'PNC',
                         page: 7,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                59.40196716707516, 13.04517033124211, 10.802369959214154,
-                                1.469775883838384,
+                                31.408406746487653, 34.16422574367206, 2.6894808216255264,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
                         page: 7,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                50.56046130610448, 83.65123247859454, 9.821977802351405,
-                                1.4697758838383805,
+                                47.31318113182773, 38.21262531778874, 2.794928029805675,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                75.89659618730305, 42.261024891905436, 2.7069553407300475,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 8,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                21.076798283196744, 51.290122908775245, 9.821980295617593,
-                                1.4697758838383805,
+                                25.618804162289916, 29.66596191116297, 3.038530109309349,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'ADAMS GOLF',
+                        text: 'PNC',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                59.52104840959821, 45.6346307967451, 2.7277226808692205,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 9,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                59.4003315844567, 26.290122908775253, 9.821977802351405,
-                                1.469775883838384,
+                                34.88556164653362, 53.73142994497847, 2.6993079946822505,
+                                1.0793074292978062,
                             ],
                         ],
                     },
-                ],
-            },
-            {
-                text: 'SPGA',
-                detections: [
                     {
-                        text: 'SPGA',
+                        text: 'PNC',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                45.64706141652625, 89.5350754863084, 2.9445274203431353,
-                                1.4697758838383805,
+                                53.73851102941176, 28.391385474850615, 2.7034676175157557,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'PGA',
+                        text: 'PNC',
                         page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 91.01234204841383, 5.885705760881013,
-                                1.4697758838383805,
+                                41.12706288570116, 37.83765779255121, 2.7222500328256274,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'SPGA',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                34.83170403374566, 74.82547952671243, 3.924919577205884,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'PGA',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                84.96405906926573, 74.82547952671243, 2.9445274203431353,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'SPGA',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                57.439547270731204, 77.7673971773398, 3.924919577205884,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'PGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                51.54249403211806, 43.94163651899858, 2.9445274203431353,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'PGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                85.94445122612846, 48.348205258147885, 2.9445274203431353,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'SPGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                64.31862824882558, 54.23204055940262, 4.905311734068633,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'SPGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                39.74837010202844, 63.057801217743844, 9.807275011648535,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'SPGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                32.870914733487794, 80.70931482796718, 11.768059325374026,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'Professional Golf Association',
-                detections: [
-                    {
-                        text: 'Professional Golf Association',
-                        page: 0,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                49.58333532794628, 89.5350754863084, 28.480474933300137,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'Commission',
-                detections: [
-                    {
-                        text: 'Commission',
+                        text: 'PNC',
                         page: 1,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 8.638609298551927, 10.787659688712722,
-                                1.469775883838384,
+                                48.942773642660185, 19.320082494595272, 2.7046934496454824,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'Commission',
+                        text: 'PNC',
                         page: 1,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 79.24467144590436, 10.787659688712722,
-                                1.4697758838383805,
+                                88.85643710609243, 26.067410285569142, 2.7331850709033603,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'Commission',
+                        text: 'PNC',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                85.88303509880515, 55.75566597619136, 3.108469217765233,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 58.65123247859454, 10.787659688712722,
-                                1.4697758838383805,
+                                74.50259425059086, 30.115795362024013, 3.860673663996849,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'Commission',
+                        text: 'PNC',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                30.174493869813553, 38.21256732714148, 2.7243888277967443,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                66.02705755153625, 58.45455070006309, 2.7832133830094534,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 39.52244459980666, 10.787659688712722,
-                                1.4697758838383805,
+                                69.30571740414916, 20.594542949613086, 3.077808027507885,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'Commission',
-                        page: 4,
+                        text: 'PNC',
+                        page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 27.754766290838067, 10.787659688712722,
-                                1.469775883838384,
+                                15.894967728302259, 27.34187074058696, 2.7448650969176747,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'Commission',
+                        text: 'PNC',
+                        page: 3,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                78.23805352219011, 34.08920034376855, 3.6892828420430703,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 20.406287607520518, 10.787659688712722,
-                                1.469775883838384,
+                                24.895037482766543, 32.364906437889694, 3.2397563517594534,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'Commission',
-                        page: 5,
+                        text: 'PNC',
+                        page: 6,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 83.65123247859454, 10.787659688712722,
-                                1.4697758838383805,
+                                40.517326803768384, 44.659996485766776, 2.70814526982668,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'Commission',
+                        text: 'PNC',
                         page: 7,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                79.0670008441202, 65.99971886837122, 10.787659688712722,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'CONSULTANT',
-                detections: [
-                    {
-                        text: 'CONSULTANT',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                72.17647078769659, 55.70931482796717, 9.821977802351412,
-                                1.4697758838383805,
+                                36.46426930147059, 26.067439280892778, 3.032570205816704,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                34.830070944393384, 57.17396206325955, 11.782762116076896,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                52.524516785066886, 64.5350754863084, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                54.48202993355545, 67.47699313693576, 9.821977802351412,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                43.6830109240962, 11.580526949179292, 9.807272518382355,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                20.094771790348627, 27.754766290838067, 9.807271271749261,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                39.74836760876225, 48.348205258147885, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                65.29575921351613, 7.161335029987375, 9.807272518382348,
-                                1.4697758838383832,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                48.584971708409924, 30.696691647924556, 9.821977802351412,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                24.996733821295443, 36.580526949179294, 9.8219802956176,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 55.70931482796717, 9.807274388331994,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                40.73039534824346, 57.17396206325955, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                46.6258229773029, 65.99971886837122, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                39.746737012676164, 73.3608284381905, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                74.15196537192351, 20.406287607520518, 10.787659688712722,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                48.584971708409924, 40.99971886837121, 9.821977802351412,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                54.48203492008783, 45.40628375429095, 10.802369959214147,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 71.88355416962595, 9.807274388331994,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                26.973859001608457, 74.82547952671243, 11.768056832107842,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 79.24467144590436, 11.768059948690574,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                68.25327156415952, 80.70931482796718, 11.768056832107845,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                71.19444803474775, 91.01234204841383, 9.807272518382348,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                38.7663473490796, 10.103252680614741, 9.807275011648535,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 17.46436225043403, 11.768059948690574,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                48.586607291028386, 18.929013338955965, 11.782762116076896,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                18.11928219265408, 24.8128486402107, 9.807271271749261,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                49.58006914924173, 45.40628375429095, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                50.562091902190566, 48.348205258147885, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                54.483665516173915, 64.5350754863084, 10.802369959214161,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                13.202616124371296, 17.46436225043403, 10.802371205847248,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                48.5849766949423, 42.464366103663586, 11.782762116076896,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 46.88355802285551, 9.807274388331994,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                49.5800741357741, 63.057801217743844, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                34.83170403374566, 65.99971886837122, 9.807275011648535,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 2,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                75.13235254225388, 13.04517033124211, 9.807272518382348,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                28.93301022598167, 13.04517033124211, 9.807272518382355,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                45.645430820440154, 52.7673971773398, 9.807272518382355,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 61.59315398245147, 9.807274388331994,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                62.35947951771854, 68.94163651899858, 11.768056832107845,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 40.99971886837121, 9.807274388331994,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 51.290122908775245, 9.807274388331994,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                55.47876295700572, 82.18658909653172, 10.787664675245104,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                20.094771790348627, 11.580526949179292, 9.807271271749261,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                67.27124382467831, 20.406287607520518, 9.807272518382348,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
-                        page: 6,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 46.88355802285551, 9.807274388331994,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'CONSULTANT',
+                        text: 'PNC',
                         page: 7,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                59.40196218054279, 80.70931482796718, 9.807272518382355,
-                                1.4697758838383805,
+                                30.905623235622375, 42.261024891905436, 2.6892115488773634,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
+                        text: 'PNC',
                         page: 8,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                57.439552257263585, 43.94163651899858, 9.807272518382348,
-                                1.4697758838383805,
+                                85.9814247964811, 42.935702579887916, 2.7520598082983128,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
+                        text: 'PNC',
+                        page: 10,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                47.65278279280462, 13.622327428532326, 2.707319500065651,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 0,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 44.58498558352509, 2.7145962755219273,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 1,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                58.41830883150786, 68.94163651899858, 11.782762116076896,
-                                1.4697758838383805,
+                                64.95003323595063, 22.019025209114275, 2.7520751953125,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
+                        text: 'PNC',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                88.88723165047269, 11.223254351038264, 2.7024828486081987,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                86.07616777179622, 50.357780547153354, 2.7205266872373954,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                59.39869600183824, 55.70931482796717, 11.782762116076903,
-                                1.4697758838383805,
+                                33.33624318868173, 23.29348566413209, 2.7224808380383436,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
+                        text: 'PNC',
+                        page: 6,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                36.05900868648241, 17.67068350966356, 2.7861420447085052,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                47.3464016954438, 34.16422574367206, 2.689480821625523,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                30.372899159663863, 25.84246456481499, 2.736088087578782,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                75.16127129562763, 49.00833818521749, 2.735113576680675,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'PNC',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                43.6830109240962, 85.1285067471591, 9.807272518382355,
-                                1.4697758838383805,
+                                79.94471445804885, 11.148301439443847, 2.729928152901792,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
-                        page: 5,
+                        text: 'PNC',
+                        page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                21.07516270057828, 11.580526949179292, 10.7876646752451,
-                                1.469775883838384,
+                                31.361312225085346, 34.08920034376855, 3.689280277540707,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
-                        page: 6,
+                        text: 'PNC',
+                        page: 7,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                33.849678787530635, 18.929013338955965, 10.787664675245097,
-                                1.469775883838384,
+                                68.09490812926732, 43.61049624916494, 3.0481264771533603,
+                                1.0793074292978062,
                             ],
                         ],
                     },
+                ],
+            },
+            {
+                text: 'Fonterra (USA) Inc.',
+                detections: [
                     {
-                        text: 'CONSULTANT',
-                        page: 6,
+                        text: 'Fonterra (USA) Inc.',
+                        page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 63.057801217743844, 9.807274388331994,
-                                1.4697758838383805,
+                                15.958062179950105, 20.294615321940878, 11.7368220481552,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
-                        page: 4,
+                        text: 'Fonterra (USA) Inc.',
+                        page: 11,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                24.017974753784976, 43.94163651899858, 11.782764609343083,
-                                1.4697758838383805,
+                                8.411764577657236, 11.373218164874368, 11.351887037774093,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
-                        page: 6,
+                        text: 'Fonterra (USA) Inc.',
+                        page: 12,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                67.27124881121068, 35.11587971388692, 9.807272518382348,
-                                1.4697758838383805,
+                                8.411764577657236, 13.247479509004787, 11.351887037774093,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'Fonterra',
+                detections: [
+                    {
+                        text: 'Fonterra',
+                        page: 0,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                33.88306689863445, 21.644057683876746, 2.9700861057313546,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                     {
-                        text: 'CONSULTANT',
+                        text: 'Fonterra',
+                        page: 1,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                86.73559365152312, 49.00833818521749, 4.85377207523635,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Fonterra',
                         page: 8,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                31.888894473805145, 26.290122908775253, 9.807272518382355,
-                                1.469775883838384,
+                                73.12688234473477, 26.967019196643964, 6.024380211068802,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'ADAMS',
+                text: 'USPS',
                 detections: [
                     {
-                        text: 'ADAMS',
-                        page: 1,
+                        text: 'USPS',
+                        page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                25.991831262127246, 91.01234204841383, 4.905311734068629,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                80.04902858360141, 23.348205258147885, 4.905306747536258,
-                                1.469775883838384,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                38.766344855813415, 24.8128486402107, 4.905311734068626,
-                                1.469775883838384,
+                                47.918588333771005, 55.38069845095382, 3.6654021960346626,
+                                1.0793074292978062,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'PGA',
+                text: 'the Food and Drug Administration',
                 detections: [
                     {
-                        text: 'PGA',
+                        text: 'the Food and Drug\nAdministration',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                46.6258229773029, 74.82547952671243, 2.9445274203431353,
-                                1.4697758838383805,
+                                18.59663891191242, 16.62113978007627, 72.99162920783547,
+                                2.4287516034413983,
                             ],
                         ],
                     },
+                ],
+            },
+            {
+                text: 'FDA',
+                detections: [
                     {
-                        text: 'PGA',
+                        text: 'FDA',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                69.23366372102227, 77.7673971773398, 2.9445274203431353,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'SPGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                59.400336570989076, 43.94163651899858, 3.924919577205884,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'PGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                82.98692890242035, 55.70931482796717, 3.924919577205884,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'PGA',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                75.13072693270017, 77.7673971773398, 2.9445274203431353,
-                                1.4697758838383805,
+                                35.30912255038734, 17.970582142012137, 1.7130029502035171,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'SPGA Tour',
+                text: 'the United States Department of Agriculture',
                 detections: [
                     {
-                        text: 'SPGA Tour',
+                        text: 'the United States Department of Agriculture',
                         page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                13.202616124371296, 76.30274608881787, 8.841584398855574,
-                                1.4697758838383805,
+                                35.30912255038734, 17.970582142012137, 25.06367915818671,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Design/Testing Teams',
+                text: 'USDA',
                 detections: [
                     {
-                        text: 'Design/Testing Teams',
+                        text: 'USDA',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                69.20243976496849, 17.970582142012137, 2.01939687007615,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'the Global Food Safety Initiatives',
+                detections: [
+                    {
+                        text: 'the Global Food Safety Initiatives',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                31.80800494025735, 32.81468189810347, 20.721399643841917,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'AIB International',
+                detections: [
+                    {
+                        text: 'AIB International',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                52.97433035714286, 32.81468189810347, 10.95237924271271,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'Silliker',
+                detections: [
+                    {
+                        text: 'Silliker',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                64.37164050190388, 32.81468189810347, 4.800168846835604,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'GMA SAFE',
+                detections: [
+                    {
+                        text: 'GMA SAFE',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                71.26061703978466, 32.81468189810347, 7.678581686580884,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'Buyer',
+                detections: [
+                    {
+                        text: 'Buyer',
                         page: 3,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                16.15849787892859, 27.754766290838067, 20.621000551709944,
-                                1.469775883838384,
+                                72.030029296875, 16.54615787315822, 3.4872205718224762,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Buyer',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                30.133679814699317, 15.271697418140404, 3.4940857446494213,
+                                1.0793092415055288,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Buyer',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                88.14498260241596, 17.970640132659405, 3.4433573233981036,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Buyer',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                51.85328892299107, 20.669582847178408, 3.4995660862001046,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Buyer',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                25.999232700892854, 16.6211687753999, 3.4268573151917003,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Buyer',
+                        page: 7,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                67.05963904116334, 19.320111489918908, 4.362721162683826,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'GOLF',
+                text: 'BellRing Brands, Inc.',
                 detections: [
                     {
-                        text: 'GOLF',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                39.748372595294626, 32.17395821002999, 5.885703890931374,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'ADAMS GOLF PRODUCT',
-                detections: [
-                    {
-                        text: 'ADAMS GOLF PRODUCT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                70.214055877885, 61.59315398245147, 17.679820341222424,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'SAG',
-                detections: [
-                    {
-                        text: 'SAG',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                35.81209369734222, 73.3608284381905, 3.924919577205884,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'SAG',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                84.96895584405637, 76.30274608881787, 3.924919577205884,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'SAG',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                84.96569465188419, 79.24467144590436, 2.9445274203431353,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'AFTRA',
-                detections: [
-                    {
-                        text: 'AFTRA',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                40.72876225889119, 73.3608284381905, 4.905314227334813,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'AFTRA',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 77.7673971773398, 5.885705760881013,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'AFTRA',
-                        page: 4,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                12.222223967508553, 80.70931482796718, 4.905311734068627,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'Champions/Seniors Tour',
-                detections: [
-                    {
-                        text: 'Champions/Seniors Tour',
+                        text: 'BellRing Brands, Inc.',
                         page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                34.83170154047947, 54.23204055940262, 21.61772983526094,
-                                1.4697758838383805,
+                                18.59663891191242, 25.842493560138617, 12.422640503955492,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Tradition',
+                text: 'Post Holdings, Inc.',
                 detections: [
                     {
-                        text: 'Tradition',
+                        text: 'Post Holdings, Inc.',
                         page: 5,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                28.93301022598167, 57.17396206325955, 8.826880361519606,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: "the Champion's Tour",
-                detections: [
-                    {
-                        text: "the Champion's Tour",
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                12.222223967508553, 63.057801217743844, 18.676552118039595,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: "the \nChampion's Tour",
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 79.24467144590436, 72.73211323357874,
-                                2.934419265901198,
-                            ],
-                        ],
-                    },
-                ],
-            },
-        ],
-        'Products': [
-            {
-                text: 'ADAMS GOLF',
-                detections: [
-                    {
-                        text: 'ADAMS GOLF',
-                        page: 1,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                75.1290913500817, 70.41891078756312, 9.821972815819038,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'ADAMS GOLF PRODUCT',
-                detections: [
-                    {
-                        text: 'ADAMS GOLF PRODUCT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                41.70915441575393, 33.63860929855193, 17.67982283448861,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'ADAMS GOLF PRODUCT',
-                        page: 3,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                25.99346684474571, 71.88355416962595, 18.64551220064849,
-                                1.4697758838383805,
+                                33.820762313714546, 25.842493560138617, 10.933927648207728,
+                                1.0793092415055305,
                             ],
                         ],
                     },
@@ -3357,215 +1987,225 @@ const documentData: IDocument = {
         ],
         'Locations': [
             {
-                text: 'U.S.',
+                text: 'Delaware',
                 detections: [
                     {
-                        text: 'U.S.',
-                        page: 4,
+                        text: 'Delaware',
+                        page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                52.52124561982996, 7.161335029987375, 4.905311734068626,
-                                1.4697758838383832,
+                                18.828805875377494, 18.94517296000501, 5.331065714860163,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Delaware',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                52.60629862296481, 7.174869274583395, 5.325778993237918,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Delaware',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                41.1779015805541, 12.572725708297765, 5.328543526785715,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Kansas',
+                text: 'Emeryville',
                 detections: [
                     {
-                        text: 'Kansas',
-                        page: 7,
+                        text: 'Emeryville',
+                        page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                12.222223967508553, 38.057801217743844, 6.866096047794118,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'Kansas',
-                        page: 8,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                9.281045626970677, 79.24467144590436, 6.866097917743758,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                    {
-                        text: 'Kansas',
-                        page: 9,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                19.099674349516825, 10.103252680614741, 5.885702644298277,
-                                1.469775883838384,
+                                72.23991842830883, 18.94517296000501, 6.446384461987918,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Westwood',
+                text: 'CA',
                 detections: [
                     {
-                        text: 'Westwood',
-                        page: 9,
+                        text: 'CA',
+                        page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 10.103252680614741, 8.826882231469249,
-                                1.469775883838384,
+                                79.02751505875788, 18.94517296000501, 1.9127648618040922,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Plano',
+                text: 'California',
                 detections: [
                     {
-                        text: 'Plano',
-                        page: 9,
+                        text: 'California',
+                        page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                76.10948350694444, 21.870930989583336, 5.885703890931367,
-                                1.469775883838384,
+                                29.048572187664128, 20.294615321940878, 5.705025296251314,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'Texas',
+                text: 'Chicago',
                 detections: [
                     {
-                        text: 'Texas',
+                        text: 'Chicago',
+                        page: 0,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                8.411764577657236, 21.644057683876746, 4.915599021591058,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'IL',
+                detections: [
+                    {
+                        text: 'IL',
+                        page: 0,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                13.666289513852417, 21.644057683876746, 1.2988063267299115,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'US',
+                detections: [
+                    {
+                        text: 'US',
+                        page: 3,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                41.21815144514837, 8.449358724924844, 1.7860117679884482,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'US',
+                        page: 5,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                84.17920537355567, 15.271668422816767, 1.7615566734506274,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'United States',
+                detections: [
+                    {
+                        text: 'United States',
+                        page: 5,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                75.3498083803834, 23.143550845619618, 7.572303579634976,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'Wilmington',
+                detections: [
+                    {
+                        text: 'Wilmington',
                         page: 9,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                82.98693388895272, 21.870930989583336, 4.905306747536258,
-                                1.469775883838384,
+                                18.59663891191242, 12.572725708297765, 6.723770013376445,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'New Castle',
+                detections: [
+                    {
+                        text: 'New Castle',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                34.013189748555675, 12.572725708297765, 6.805471211922267,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
         ],
-        'Events': [
+        'Facilities': [
             {
-                text: 'a PGA Tour Major',
+                text: '1222 67th Street',
                 detections: [
                     {
-                        text: 'a PGA Tour Major',
-                        page: 5,
+                        text: '1222 67th Street',
+                        page: 0,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                32.87091722675398, 48.348205258147885, 15.719041014029308,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'Masters',
-                detections: [
-                    {
-                        text: 'Masters',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                68.25327156415952, 48.348205258147885, 7.846488204656865,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'US Open',
-                detections: [
-                    {
-                        text: 'US Open',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                77.09150625989328, 48.348205258147885, 7.861193488625929,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: 'British Open',
-                detections: [
-                    {
-                        text: 'British Open',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                13.202616124371296, 49.82547567348288, 12.779493892894074,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-            {
-                text: "the Champion's Tour (SPGA) US Open",
-                detections: [
-                    {
-                        text: "the Champion's Tour (SPGA) US Open",
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                29.915035472196692, 49.82547567348288, 34.3922434289471,
-                                1.4697758838383805,
-                            ],
-                        ],
-                    },
-                ],
-            },
-        ],
-        'People groups': [
-            {
-                text: 'British',
-                detections: [
-                    {
-                        text: 'British',
-                        page: 5,
-                        value: null,
-                        unit: null,
-                        bbox: [
-                            [
-                                16.15849787892859, 57.17396206325955, 7.846486958023771,
-                                1.4697758838383805,
+                                56.717965262276785, 18.912473483776537, 9.265772715336134,
+                                1.1120087177340032,
                             ],
                         ],
                     },
@@ -3574,34 +2214,505 @@ const documentData: IDocument = {
         ],
         'Legalese': [
             {
-                text: "ADAMS GOLF'S",
+                text: 'the Federal Food, Drug, and Cosmetic Act',
                 detections: [
                     {
-                        text: "ADAMS GOLF'S",
-                        page: 6,
+                        text: 'the Federal Food, Drug, and Cosmetic Act',
+                        page: 2,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                14.197713565203099, 91.01234204841383, 11.782760869443809,
-                                1.4697758838383805,
+                                44.838723575367645, 11.223254351038264, 23.813009823069855,
+                                1.0793092415055305,
                             ],
                         ],
                     },
                 ],
             },
             {
-                text: 'the Arbitration Rules of the American Arbitration Association',
+                text: 'Act',
                 detections: [
                     {
-                        text: 'the Arbitration Rules of the American Arbitration Association',
+                        text: 'Act',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                75.9913083885898, 11.223254351038264, 4.739790203190651,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'California Safe Drinking Water and Toxic Enforcement Act',
+                detections: [
+                    {
+                        text: 'California Safe Drinking Water and Toxic Enforcement Act',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 19.320024503948, 72.99159843380713,
+                                2.4288095940886656,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'the California Health and Safety Code',
+                detections: [
+                    {
+                        text: 'the California Health and\nSafety Code',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 22.018967218467004, 72.99161894982602,
+                                2.428809594088669,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '22 CCR §§ 12701',
+                detections: [
+                    {
+                        text: '22 CCR §§ 12701',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                26.41332289751838, 23.368467571050143, 10.37749474789916,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '22 CCR §§ 12801 et seq',
+                detections: [
+                    {
+                        text: '22 CCR §§ 12801 et seq',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                44.11333869485294, 23.368467571050143, 15.313787380186447,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'this Section 2.2',
+                detections: [
+                    {
+                        text: 'this\nSection 2.2',
+                        page: 2,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 34.16418225068661, 72.991844626034,
+                                2.4287497912336704,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'Current Good Manufacturing Practice,',
+                detections: [
+                    {
+                        text: 'Current Good Manufacturing Practice,',
+                        page: 3,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                38.677409196100314, 13.847215158639214, 21.451775045955884,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'Defend Trade Secrets Act',
+                detections: [
+                    {
+                        text: 'Defend Trade Secrets Act',
+                        page: 5,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 13.922197065557269, 15.395380869633009,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'the US Defend Trade Secrets Act',
+                        page: 5,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                27.90931509322479, 15.271668422816767, 18.366976185005257,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'The Liability Cap',
+                detections: [
+                    {
+                        text: 'The Liability Cap',
                         page: 8,
                         value: null,
                         unit: null,
                         bbox: [
                             [
-                                9.281045626970677, 77.7673971773398, 60.921660903232535,
-                                1.4697758838383805,
+                                23.68907768185399, 7.1748547769215785, 10.189485950630253,
+                                1.0793092415055296,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'The Liability Cap',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                23.68907768185399, 9.87379749144058, 9.940926688058038,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'California Transparency Act',
+                detections: [
+                    {
+                        text: 'California Transparency Act',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                13.504202706473215, 25.84246456481499, 16.470849814535185,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '41 CFR §60-1.4',
+                detections: [
+                    {
+                        text: '41 CFR §60-1.4',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                47.680551224396005, 32.36489194022788, 9.295905618106623,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: '41 CFR §60-741.5',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                28.764248375131302, 33.714348799825565, 11.042718967469803,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '41 CFR §61-300.10',
+                detections: [
+                    {
+                        text: '41 CFR §61-300.10',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                57.32500861672795, 32.36489194022788, 11.370336708902308,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: '41 CFR §60-300.5',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                15.263442352038473, 33.714348799825565, 10.673298555261946,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '29 CFR Part 471',
+                detections: [
+                    {
+                        text: '29 CFR Part 471',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                69.04389709985557, 32.36489194022788, 9.33175736114758,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '§60-741.5(a) to',
+                detections: [
+                    {
+                        text: '§60-741.5(a) to',
+                        page: 9,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                20.97400056213892, 36.413291514344564, 8.566794515657822,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'the U.S. Foreign Corrupt Practices Act',
+                detections: [
+                    {
+                        text: 'the U.S. Foreign Corrupt Practices Act',
+                        page: 10,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                40.994301162847954, 22.618764483164156, 22.492929666983976,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'the UK Bribery Act',
+                detections: [
+                    {
+                        text: 'the UK Bribery Act',
+                        page: 10,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                63.871711282169116, 22.618764483164156, 11.245153090533094,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                ],
+            },
+        ],
+        'Events': [
+            {
+                text: 'a “Force Majeure Event',
+                detections: [
+                    {
+                        text: 'a “Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                58.32495424927784, 25.61756233704628, 23.976399397649686,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'a Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                36.90622281627495, 26.967019196643964, 13.770893000754981,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'the Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                68.40610023306198, 33.714348799825565, 13.980225635175941,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'a Force\nMajeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 36.413291514344564, 72.99279862091322,
+                                2.4287642888954935,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'the Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                66.81181579076943, 39.112219731201755, 13.939352596507348,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'the Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                64.48927422531513, 44.28517393714741, 14.31338013721114,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'the Force Majeure Event',
+                detections: [
+                    {
+                        text: 'the Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                75.06614877396271, 32.36489194022788, 14.236378389246326,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'the Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                74.53696884027048, 35.06382015708506, 14.458669454109781,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'a Force Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                71.90571248030462, 42.935702579887916, 13.661391314338246,
+                                1.0793074292978062,
+                            ],
+                        ],
+                    },
+                ],
+            },
+            {
+                text: 'a Force Majeure Event',
+                detections: [
+                    {
+                        text: 'a\nForce Majeure Event',
+                        page: 8,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                18.59663891191242, 37.76274837394225, 72.9927986209132,
+                                2.4287787865573094,
+                            ],
+                        ],
+                    },
+                ],
+            },
+        ],
+        'Individuals': [
+            {
+                text: 'Paul Rode',
+                detections: [
+                    {
+                        text: 'Paul Rode',
+                        page: 11,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                57.32968114003414, 17.145929766947187, 5.826964819130772,
+                                1.0793092415055305,
+                            ],
+                        ],
+                    },
+                    {
+                        text: 'Paul Rode',
+                        page: 12,
+                        value: null,
+                        unit: null,
+                        bbox: [
+                            [
+                                57.32968114003414, 16.846054693299063, 5.826964819130772,
+                                1.0793092415055305,
                             ],
                         ],
                     },

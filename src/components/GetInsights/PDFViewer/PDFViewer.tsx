@@ -35,7 +35,6 @@ const PDFViewer = () => {
         textMatchIndex,
         matchCase,
         matchWord,
-        fileUrl,
         setSelectedRegion,
         setCurrentPage,
         setNumPages,
@@ -422,7 +421,7 @@ const PDFViewer = () => {
 
                 <Viewer
                     defaultScale={SpecialZoomLevel.PageWidth}
-                    fileUrl={fileUrl}
+                    fileUrl="./sample.pdf"
                     plugins={[
                         highlightPluginInstance,
                         zoomPluginInstance as Plugin,
