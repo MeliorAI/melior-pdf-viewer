@@ -21,12 +21,12 @@ import { IconButton, Input } from '@mui/material';
 import { Close, KeyboardArrowDown, KeyboardArrowUp } from '@mui/icons-material';
 import { VscCaseSensitive, VscWholeWord } from 'react-icons/vsc';
 import { MeliorTranslate } from '../../MeliorTranslate';
-import documentData from '../../../pages/GetInsights/documentData';
 
 const JUMP_PADDING = 10;
 
 const PDFViewer = () => {
     const {
+        documentData,
         selectedSourcePageIndex,
         selectedInsight,
         selectedRegion,

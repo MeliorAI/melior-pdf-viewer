@@ -3,8 +3,7 @@ import PDFViewer from '../../components/GetInsights/PDFViewer';
 import Flex from 'styled-flex-component';
 import InsightsSidebar from '../../components/GetInsights/Sidebar';
 import Container from '../../components/UI/Common/Container';
-import { useEffect, useState } from 'react';
-import { IDocument } from '../../@types/Document';
+import { useState } from 'react';
 import GetInsightsProvider from './context/getInsightsContext';
 import PDFViewerPageIndicator from '../../components/GetInsights/PDFViewerPageIndicator';
 import GetInsightsLayoutStyled from '../../components/GetInsights/Layout/Layout.styled';
@@ -12,13 +11,8 @@ import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 import document from '../GetInsights/documentData';
 
 const GetInsightsPage = () => {
-    const [documentData, setDocumentData] = useState<IDocument>();
     const [sidebarSize, setSidebarSize] = useState<number>();
     const [fileUrl] = useState<string>('');
-
-    useEffect(() => {
-        setDocumentData(document);
-    }, []);
 
     window.addEventListener('keydown', function (event) {
         if (
@@ -31,7 +25,7 @@ const GetInsightsPage = () => {
 
     return (
         <GetInsightsProvider
-            documentData={documentData}
+            documentData={document}
             fileUrl={fileUrl}>
             <GetInsightsLayoutStyled>
                 <GetInsightsHeader />
@@ -47,8 +41,7 @@ const GetInsightsPage = () => {
                                     console.log(sidebarSize);
                                     
                                 }}>
-                                <InsightsSidebar
-                                />
+                                <InsightsSidebar/>
                             </Panel>
                             <PanelResizeHandle style={{ width: '5px' }} />
                             <Panel order={2}>

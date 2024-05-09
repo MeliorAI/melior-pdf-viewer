@@ -15,7 +15,7 @@ export interface ClauseData {
 }
 
 export interface ClauseDataExtraction {
-    _predicted?: {
+    _predicted: {
         answer: string;
         score: number;
         page: number;

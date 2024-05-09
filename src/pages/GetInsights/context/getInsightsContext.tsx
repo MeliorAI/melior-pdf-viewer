@@ -6,8 +6,7 @@ import {
     ISelectedEntity,
     ISelectedRegion,
 } from '../../../components/GetInsights/helpers/types';
-import PageLoadingPlaceholder from '../../../components/PageLoadingPlaceholder/PageLoadingPlaceholder';
-
+import document from '../documentData';
 export interface IChatSource {
     page: number;
 }
@@ -34,6 +33,7 @@ export type GetInsightsContextType = {
     currentMatchIndex: number;
     matchCase: boolean;
     matchWord: boolean;
+    setDocumentData: (document: IDocument) => void;
     setSelectedInsight: (insight: string | ISelectedEntity | undefined) => void;
     setSelectedInsightType: (type: InsightType) => void;
     setEditSelectedClause: (clause: IEditSelectedClause | undefined) => void;
@@ -53,13 +53,12 @@ export const GetInsightsContext = createContext<GetInsightsContextType | null>(n
 
 interface GetInsightsProviderProps {
     children: React.ReactNode;
-    documentData?: IDocument;
+    documentData: IDocument;
     fileUrl: string;
 }
 
 const GetInsightsProvider = ({
     children,
-    documentData,
     fileUrl,
 }: GetInsightsProviderProps) => {
     const [selectedInsight, setSelectedInsight] = useState<string | ISelectedEntity | undefined>();
@@ -75,10 +74,7 @@ const GetInsightsProvider = ({
     const [currentMatchIndex, setCurrentMatchIndex] = useState<number>(0);
     const [matchCase, setMatchCase] = useState(false);
     const [matchWord, setMatchWord] = useState(false);
-
-    if (!documentData) {
-        return <PageLoadingPlaceholder />;
-    }
+    const [documentData, setDocumentData] = useState<IDocument>(document);
 
     return (
         <GetInsightsContext.Provider
@@ -98,6 +94,7 @@ const GetInsightsProvider = ({
                 currentMatchIndex,
                 matchCase,
                 matchWord,
+                setDocumentData,
                 setSelectedInsight,
                 setIsDocumentLoaded,
                 setSelectedInsightType,

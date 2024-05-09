@@ -13,10 +13,10 @@ import {
 import ClausesListItem from './ClausesListItem';
 import TextMatchesNavigation from './TextMatchesNavigation';
 import { MeliorTranslate } from '../../MeliorTranslate';
-import documentData from '../../../pages/GetInsights/documentData';
 
 const ClausesList = () => {
     const {
+        documentData,
         selectedInsight,
         editSelectedClause,
         selectedRegion,
@@ -25,6 +25,7 @@ const ClausesList = () => {
         setEditSelectedClause,
         setSelectedInsight,
         setTextMatchIndex,
+        setDocumentData
     } = useContext(GetInsightsContext) as GetInsightsContextType;
     const clauses = documentData.clauses ? Object.keys(documentData.clauses) : [];
     const [hoveredInsight, setHoveredInsight] = useState<string>();
@@ -35,7 +36,6 @@ const ClausesList = () => {
 
     useEffect(() => {
         const clausesWithId = attachClauseId(clauses, 0);
-        // Set all clauses as displayed clauses
         setDisplayedClauses(clausesWithId);
     }, []);
     const getBboxesValue = (): number[][] => {
@@ -63,78 +63,48 @@ const ClausesList = () => {
     };
 
     async function confirm() {
-        // if (!selectedRegion || !editSelectedClause) return;
-
         setIsConfirming(true);
-        console.log(getBboxesValue());
-        
-        // const feedback: IFeedback[] = [
-        //     {
-        //         correct: false,
-        //         gt: selectedRegion.text,
-        //         idx: textMatchIndex,
-        //         field: `clauses.${editSelectedClause.clause}`,
-        //         key: 'answer',
-        //     },
-        //     {
-        //         correct: false,
-        //         gt: getBboxesValue(),
-        //         idx: textMatchIndex,
-        //         field: `clauses.${editSelectedClause.clause}`,
-        //         key: 'bboxes',
-        //     },
-        //     {
-        //         correct: false,
-        //         gt: selectedRegion.page,
-        //         idx: textMatchIndex,
-        //         field: `clauses.${editSelectedClause.clause}`,
-        //         key: 'page',
-        //     },
-        // ];
 
-        // try {
-        //     await provideFeedback(documentData.id, feedback);
-        //     setEditSelectedClause(undefined);
-        //     setIsConfirming(false);
-        //     setSelectedRegion(undefined);
-        //     getDocument();
-        // } catch (e) {
-        //     console.error(e);
-        //     setIsConfirming(false);
-        // }
+        try {
+            updateClauseValues(
+                selectedRegion?.text??"",
+                getBboxesValue()
+            )
+        } catch (e) {
+            console.error(e);
+            setIsConfirming(false);
+        }
     }
 
     async function reset() {
         setIsResetting(true);
+        try {
+            const insight = selectedInsight?.toString()??"";
+            const docData = documentData;
+            const currIndex= insight.length>1?textMatchIndex:0;
+            updateClauseValues(
+                docData.clauses[insight][currIndex]._predicted.answer,
+                docData.clauses[insight][currIndex]._predicted.bboxes
+            )
+        } catch (e) {
+            console.error(e);
+            setIsResetting(false);
+        }
+    }
 
-        // const feedback: IFeedback[] = [
-        //     {
-        //         correct: false,
-        //         gt: documentData.clauses[editSelectedClause!.clause][textMatchIndex]._predicted
-        //             ?.answer as string,
-        //         idx: textMatchIndex,
-        //         field: `clauses.${editSelectedClause?.clause}`,
-        //         key: 'answer',
-        //     },
-        //     {
-        //         correct: false,
-        //         gt: documentData.clauses[editSelectedClause!.clause][textMatchIndex]._predicted
-        //             ?.bboxes as number[][],
-        //         idx: textMatchIndex,
-        //         field: `clauses.${editSelectedClause!.clause}`,
-        //         key: 'bboxes',
-        //     },
-        // ];
-        // try {
-        //     await provideFeedback(documentData.id, feedback);
-        //     setEditSelectedClause(undefined);
-        //     setSelectedRegion(undefined);
-        //     setIsResetting(false);
-        //     getDocument();
-        // } catch (e) {
-        //     console.error(e);
-        //     setIsResetting(false);
-        // }
+    const updateClauseValues = (answer, bboxes) => {
+        const insight = selectedInsight?.toString()??"";
+        const docData = documentData;
+        const currIndex= insight.length>1?textMatchIndex:0;
+
+        docData.clauses[insight][currIndex].answer = answer;
+        docData.clauses[insight][currIndex].bboxes = bboxes;
+        
+        setDocumentData(docData);
+
+        setEditSelectedClause(undefined);
+        setSelectedRegion(undefined);
+        setIsResetting(false);
     }
 
     const isClauseParsed = (key: string) => {
